@@ -42,7 +42,7 @@ penguins_2008_or2009<-filter(.data= penguins, year %in% c("2008", "2009"))
 ##penguins are not from the island dream 
 penguins_not_dream<-filter(.data= penguins, island != "Dream")
 
-##Adelie and Gentoo
+##Adelie or Gentoo
 adelie_gentoo<- filter(.data= penguins, species == "Adelie" | species=="Gentoo")
 
 ##mutate adds a new column to your dataframe
