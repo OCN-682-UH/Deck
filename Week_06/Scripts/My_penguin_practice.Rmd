@@ -1,0 +1,43 @@
+---
+title: "My Penguin Practice"
+author: "Annie Deck"
+date: "2024-10-01"
+output: 
+  html_document:
+    toc: TRUE
+    toc_float: TRUE
+    theme: darkly
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      message=FALSE,
+                      warning=FALSE)
+```
+
+# Intro to Penguins 
+Today we are going to work with the penguin data to learn *RMarkdown*
+
+# Load libraries 
+
+```{r}
+library(palmerpenguins)
+library(here)
+library(tidyverse)
+```
+
+# Inspect the data
+```{r}
+glimpse(penguins)
+```
+
+# Make a plot
+```{r}
+penguins %>%
+  ggplot(aes(x=bill_length_mm,
+             y=bill_depth_mm))+ 
+  geom_point()+
+  facet_wrap(~species, scales = "free_y", ncol = 1) +
+  theme_bw()
+```
+

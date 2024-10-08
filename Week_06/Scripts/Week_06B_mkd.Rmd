@@ -1,0 +1,49 @@
+---
+title: "Week_06B"
+author: "Annie Deck"
+date: "2024-10-02"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      message=FALSE,
+                      warning=FALSE,
+                      fig.path = "../Output/")
+```
+
+# Practice with RMarkdown
+Editing figures
+
+# Load libraries 
+```{r}
+library(palmerpenguins)
+library(here)
+library(tidyverse)
+library(kableExtra)
+```
+#View data
+```{r}
+head(penguins)
+```
+
+
+# Make a plot
+```{r penguinplot, fig.align='center', fig.cap="This is a boxplot of penguin data"}
+penguins %>%
+  ggplot(aes(x=species,
+             y=bill_length_mm,
+             fill=species))+ 
+  geom_histogram(stat= "summary", fun= "mean")+
+  theme_bw()
+```
+
+```{r}
+## making kable table 
+penguins %>%
+  group_by(species) %>%
+  summarise(billmean=mean(bill_length_mm, na.rm= TRUE)) %>%
+  kbl() %>%
+  kable_classic()
+```
+

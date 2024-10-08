@@ -1,0 +1,74 @@
+---
+title: "Week 06 Homework"
+author: "Annie Deck"
+date: "2024-10-03"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      message=FALSE,
+                      warning=FALSE,
+                      fig.path = "../Output/")
+```
+
+# Making a beautiful *RMarkdown* document
+#### This document will include:
+1. How to convert data from long and vertical format 
+2. How to make a table with a scroll bar
+3. How to make a nice looking plot
+
+# Load libraries
+```{r}
+library(here)
+library(tidyverse)
+library(kableExtra)
+library(knitr)
+library(formattable)
+```
+
+# Read in data
+#### Data from **Silbiger et al., 2020**
+
+```{r}
+##read in data & name it
+chem_data<- read_csv(here("Week_06", "Data","chemicaldata_maunalua.csv"))
+
+##look at the data
+head(chem_data)
+```
+
+# Make our data vertical & produce table
+```{r}
+chem_data %>% ##my data
+  drop_na() %>% ##remove NAs
+  pivot_longer(cols = Temp_in:TA, ##select columns
+               names_to = "Variables", ##make new column named Variables
+               values_to = "Values") %>% ##make new column named Values %>%
+  group_by(Variables,Zone) %>% ##group by Variables and Zone
+  summarise(Mean=mean(Values, na.rm=TRUE)) %>% ##new column with means for these groups
+  kbl(caption = "<span style='font-size: 20px;'><strong>Table 1.1: Mean Values of Chemical Variables by Zone</strong></span>", escape = FALSE) %>% ##adding title
+  kable_styling(full_width = F, font_size = 16, html_font = "Arial") %>% ##table styling
+  kable_material(c("striped", "hover")) %>% ##more styling like alternating white and grey rows
+  column_spec(3, bold = T) %>% ##bolding the mean column because that is what we are interested in for this table
+  scroll_box(height = "400px", width= "100%")
+  
+
+ 
+  
+```
+
+# Make a plot
+```{r, fig.align='center'}
+phosphate_plot <-chem_data %>% ##my data
+  drop_na() %>% ##remove NAs
+  ggplot(aes(x=Zone, y=Phosphate, color=Zone)) + ##plot zone on x axis and phosphate on y
+                        geom_boxplot() + ##geom is boxplot
+  facet_wrap(~Season) + ## create a plot for both fall and spring
+  theme_bw()+ ##change to black and white theme
+  theme(legend.position = "none", plot.title = element_text(hjust = 0.5)) + ##remove legend and center title
+  labs(title= "Phosphate levels across zones for fall and spring") ##add title
+
+phosphate_plot
+```
+
