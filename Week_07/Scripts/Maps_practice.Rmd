@@ -47,7 +47,7 @@ cats_uk_clean <- cats_uk %>%
 
 ##plotting
 ggplot()+ 
-  geom_polygon(data = UK, aes(x = long, 
+  geom_polygon(data = UK, aes(x = long, ##plotting map of UK
                       y = lat, 
                       group = group),
                       fill = "lightgrey", color = "white") + 
@@ -56,6 +56,9 @@ ggplot()+
              aes(x = location_long, y = location_lat),
              alpha = 0.6, size = 2) +
   # Adjust the coordinate system
-  coord_map()
+  coord_map() + 
+  labs(title = "Pet Cats in the UK", ##adding title 
+       subtitle = "Data from Tidy Tuesday (2023-01-31)", ##subtitle
+       x = "Longitude", y = "Latitude") ##labeling x and y axes 
 ```
 
