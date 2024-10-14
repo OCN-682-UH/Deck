@@ -81,8 +81,9 @@ chem_data %>% ##my data
 ```
 
 # Make a plot
-```{r, fig.align='center'}
-phosphate_plot <-chem_data %>% ##my data
+```{r, phosphate_plot, fig.align='center'}
+##remember to name the plot in the brackets above
+chem_data %>% ##my data
   drop_na() %>% ##remove NAs
   ggplot(aes(x=Zone, 
              y=Phosphate, 
@@ -94,6 +95,6 @@ phosphate_plot <-chem_data %>% ##my data
         plot.title = element_text(hjust = 0.5)) + ##remove legend and center title
   labs(title= "Phosphate levels across zones for fall and spring") ##add title
 
-phosphate_plot
+
 ```
 
