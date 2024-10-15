@@ -1,12 +1,18 @@
 ---
-title: "Maps_practice"
+title: "Maps Practice"
 author: "Annie Deck"
 date: "2024-10-14"
-output: html_document
+output: 
+ html_document:
+  toc: true
+  toc_float: true
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE,
+                      message=FALSE,
+                      warning=FALSE,
+                      fig.path = "../Output/")
 ```
 # Load libraries 
 ```{r}
@@ -39,9 +45,9 @@ ggplot(data = UK, aes(x = long,
 
 ```
 
-# Plotting cat data on UK data
-```{r}
-##remove rows that have a NA for lat or long
+# Plotting cat data on UK map
+```{r, cat_map, fig.align='center'}
+##first remove rows that have a NA for lat or long
 cats_uk_clean <- cats_uk %>%
   filter(!is.na(location_long) & !is.na(location_lat))
 
@@ -50,15 +56,18 @@ ggplot()+
   geom_polygon(data = UK, aes(x = long, ##plotting map of UK
                       y = lat, 
                       group = group),
-                      fill = "lightgrey", color = "white") + 
+                      fill = "lightgrey", color = "black") + 
+  theme_bw() +
   # Add points for cat locations
   geom_point(data = cats_uk_clean, 
              aes(x = location_long, y = location_lat),
-             alpha = 0.6, size = 2) +
+             alpha = 0.6, size = 1.5) + ##side and shade of points 
   # Adjust the coordinate system
-  coord_map() + 
-  labs(title = "Pet Cats in the UK", ##adding title 
+  coord_map(xlim= c(-6.5,-3), ##zoom into area where all the data points are
+            ylim= c(50,52)) + 
+  labs(title = "Distribution of Pet Cats in the UK", ##adding title 
        subtitle = "Data from Tidy Tuesday (2023-01-31)", ##subtitle
-       x = "Longitude", y = "Latitude") ##labeling x and y axes 
+       x = "Longitude", y = "Latitude")  ##labeling x and y axes 
+ 
 ```
 
