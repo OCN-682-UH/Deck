@@ -50,3 +50,8 @@ ggmap(Map1) +
                    location= "bl") + ## location is bottom left
   annotation_north_arrow(location="tl") + ## can specify between grid north and true north
   coord_sf(crs =4326) ## very important for using scale bar. Tells R what coordinate system this is (it is a map). 4326 is the coordinate reference system most GPS systems are in (WGS84)
+
+##without the coord_sf line the scale bar will be using the scale of your figure not the map
+
+##if you don't know the exact coordinates basically anything you can map to on your gps you can get the coordinates for. 
+geocode("University of Hawaii at Manoa")
