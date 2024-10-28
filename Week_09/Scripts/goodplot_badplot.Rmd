@@ -28,7 +28,11 @@ library(magick)
 ```{r}
 outer_space_objects <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-04-23/outer_space_objects.csv')
 
+##take a look at the data
 view(outer_space_objects)
+
+##save to data folder 
+readr::write_csv(outer_space_objects, here::here("Week_09", "Data", "outer_space_objects.csv"))
 
 ```
 
@@ -85,7 +89,7 @@ masterpiece
 * Log transformation of the data makes values much easier to understand
 * Titles are informative (states what is being visualized, what timeframe this data was gathered from etc.)
 * Where the data comes from is clearly stated making this plot more reproducible 
-* Colors gradient creates a visual depiction of the values making it much easier for the viewer to identify key patterns in the data. 
+* Color gradient creates a visual depiction of the values making it much easier for the viewer to identify key patterns in the data. 
 ```{r, fig.align='center'}
 ggplot(world_space, aes(x = long, 
                         y = lat, 
