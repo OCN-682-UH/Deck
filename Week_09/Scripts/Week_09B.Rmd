@@ -1,0 +1,72 @@
+---
+title: "Week 09B HW"
+author: "Annie Deck"
+date: "2024-10-23"
+output: 
+ html_document:
+  toc: true
+  toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      message=FALSE,
+                      warning=FALSE)
+```
+
+# Load libraries
+```{r}
+library(tidyverse)
+library(here)
+library(ggrepel)
+```
+
+# Look at data
+```{r}
+View(mtcars)
+?mtcars
+
+Cars_subset <- rownames_to_column(mtcars, var = "Car_names") %>%
+  filter(Car_names== "Mazda RX4" | Car_names== "Toyota Corolla" |Car_names== "Ferrari Dino")
+```
+
+
+# Writing a function for plotting
+```{r}
+#writing a function 
+myplot<-function(data = Cars_subset, x, y){ ##set Cars_subset as my default dataset 
+  pal<-pnw_palette("Lake",3, type = "discrete") ##choose my colors
+  ggplot(data, aes(x = {{x}}, y = {{y}} , fill = Car_names))+ ##tell it my x and y variables are going to be within my Cars_subset data set 
+    geom_col()+ ##set geometry to bars 
+    scale_fill_manual("Car_names", values=pal)+ ##fill the bars 
+    theme_bw() ##set theme to black and white 
+}
+
+myplot(x = Car_names, y = mpg)
+
+##plot 1
+myplot(x = Car_names, y = disp)+
+  labs(x = "Car Type",
+       y = "Displacement (cu.in.)") +
+    theme(legend.position = "none")
+
+##plot 2
+myplot(x = Car_names, y = mpg)+
+  labs(x = "Car Type",
+       y = "Miles/(US) Gallon (mpg)") +
+    theme(legend.position = "none")
+
+##Writing another function 
+myplot<-function(data = mtcars, x, y){
+  ggplot(data, aes(x = {{x}}, y = {{y}} , label=rownames(mtcars)))+
+    geom_point() +
+    geom_text_repel()+
+    theme_bw()
+}
+
+myplot(x = mpg, y = disp)+
+  labs(x = "Miles/(US) Gallon (mpg)",
+       y = "Displacement (cu.in.)") 
+
+```
+

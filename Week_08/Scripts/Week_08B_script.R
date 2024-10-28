@@ -1,8 +1,8 @@
-### In class week 8 - working with stringr
+### At home week 8 - advanced plotting
 
 ##Created by: Annie Deck
 
-##Created on 2024-10-15
+##Created on 2024-10-20
 
 ############################################
 
