@@ -19,11 +19,12 @@ knitr::opts_chunk$set(echo = TRUE,
 library(tidyverse)
 library(here)
 library(ggrepel)
+library(PNWColors)
 ```
 
 # Look at data
 ```{r}
-View(mtcars)
+head(mtcars)
 ?mtcars
 
 Cars_subset <- rownames_to_column(mtcars, var = "Car_names") %>%
@@ -34,7 +35,7 @@ Cars_subset <- rownames_to_column(mtcars, var = "Car_names") %>%
 # Writing a function for plotting
 ```{r}
 #writing a function 
-myplot<-function(data = Cars_subset, x, y){ ##set Cars_subset as my default dataset 
+myplot<-function(data = Cars_subset, x, y){ ##set Cars_subset as my default data set 
   pal<-pnw_palette("Lake",3, type = "discrete") ##choose my colors
   ggplot(data, aes(x = {{x}}, y = {{y}} , fill = Car_names))+ ##tell it my x and y variables are going to be within my Cars_subset data set 
     geom_col()+ ##set geometry to bars 
@@ -64,9 +65,31 @@ myplot<-function(data = mtcars, x, y){
     theme_bw()
 }
 
+##plot 1
 myplot(x = mpg, y = disp)+
   labs(x = "Miles/(US) Gallon (mpg)",
        y = "Displacement (cu.in.)") 
+
+##plot 2
+myplot(x = mpg, y = hp)+
+  labs(x = "Miles/(US) Gallon (mpg)",
+       y = "Gross horsepower") 
+
+```
+
+# Function to convert miles/gallon to liters/km
+```{r}
+##3.785 liters= 1 gallon
+##1.609 kilometers = 1 mile 
+mpg_to_lkm <- function(mpg) {lkm <- 3.78541 / (mpg * 1.60934) 
+return(lkm)}
+
+##testing the new function 
+mpg_to_lkm(50)
+mpg_to_lkm(30)
+
+##make new column in mtcars data set using this function 
+mtcars$lkm <- mpg_to_lkm(mtcars$mpg)
 
 ```
 

@@ -82,7 +82,7 @@ myplot<-function(data, x, y){
 
 ##return is if you are saving something so we don't have that here
 
-##using curly curly to help assign variables that are within a dataframe
+##using curly curly to help assign variables that are within a data frame
 myplot<-function(data, x, y){ 
   pal<-pnw_palette("Lake",3, type = "discrete") # my color palette 
   ggplot(data, aes(x = {{x}}, y = {{y}} , color = island))+
