@@ -78,12 +78,13 @@ Intertidal_plot <- Intertidal_data_final %>%
              fill= quadrat)) +
   geom_bar(stat = "identity", position = "dodge") +
   facet_wrap(~site, ncol = 1) + ##facet to compare the two sites, stack them vertically
+  scale_y_continuous(labels = function(x) paste0(x, "%")) + ##make y axis %
   scale_fill_manual(values = palette5) + ##fill bars with my color palette 
   theme_bw() + ##add a nice theme to get rid of grey background
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) + ##rotate x-axis labels to make it less crowded
   labs(title = "Percent Cover by Quadrat at Scripps vs Cambria",
        x = "Cover Type",
-       y = "Percent Cover",
+       y = "Percent Cover (%)",
        fill = "Quadrat") + ##fix axis labels, legend label, and add title
   scale_x_discrete(
     labels = c("algae" = "Algae", ##fix names of cover categories
