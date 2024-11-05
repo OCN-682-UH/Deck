@@ -67,6 +67,10 @@ democracy_plot <- democracy_data_cleaned %>% ##plug in cleaned data
 ##Now lets look at the plot 
 democracy_plot
 
+##Saving 
+anim_save(here("Tidy_Tuesday", "Week_10", "Outputs", "Democracy_plot.giff"))
+
+
 ```
 
 # New skill
