@@ -1,0 +1,74 @@
+---
+title: "Tidy Tuesday Week 10"
+author: "Annie Deck"
+date: "2024-11-05"
+output: 
+ github_document:
+  toc: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      message=FALSE,
+                      warning=FALSE)
+```
+# Load libraries
+```{r}
+library(tidyverse)
+library(here)
+library(gganimate)
+```
+
+# Bring in data
+## Democracy and Dictatorship 
+```{r}
+##Bring in directly from GitHub
+democracy_data <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-11-05/democracy_data.csv')
+
+##Take a look at the data
+glimpse(democracy_data)
+
+##Save to data folder 
+readr::write_csv(democracy_data, here::here("Tidy_Tuesday", "Week_10", "Data", "outer_space_objects.csv"))
+
+```
+
+# Data wrangling 
+```{r}
+##First I am going to pull out only the columns I am interested in to simplify 
+democracy_data_cleaned <- democracy_data %>%
+  select(c(year, is_democracy, is_communist)) %>% ##lets compare number of democracies and number of communist countries
+  group_by(year) %>% ##group by year
+  summarize(Democracies = sum(is_democracy, na.rm = TRUE),
+    Dictatorships = sum(is_communist, na.rm = TRUE)) %>%
+  pivot_longer(cols = c(Democracies, Dictatorships),
+    names_to = "government_type",
+    values_to = "count")
+  
+```
+
+# Plotting 
+```{r}
+democracy_plot <- democracy_data_cleaned %>% ##plug in cleaned data
+  ggplot(aes(x = year,
+             y = count, 
+             color = government_type)) + #different color for each category 
+  geom_line(linewidth = 1) + #make it a line plot
+  theme_bw() + #add a theme to make it look nicer
+  transition_reveal(year) + ##animate so it adds data by year
+  labs(title = "Democracies vs Dictatorships from 1950 to 2020", ##fix axis lables and title
+       x = "Year",
+       y = "Count",
+       color = "Government Type",
+       caption = "Source: Tidy Tuesday democracy dataset") +
+  scale_color_manual(values=c("royalblue4", "red3"))
+
+
+##Now lets look at the plot 
+democracy_plot
+
+```
+
+# New skill
+* I tried an animated line plot using the package gganimate to plot the data points by year. 
+
