@@ -74,13 +74,16 @@ word_counts <- monster_movies %>%
   filter(n >= 2)
 
 ##trying world cloud again with a few modifications- looks better!
-wordcloud2(word_counts,
+monster_wordcloud <-wordcloud2(word_counts,
           size = 0.5,
           color = "random-dark",
           backgroundColor = "black",
           rotateRatio = 0.5,
           minSize = 0.1,
           shape = "circle")
+
+##saving
+saveWidget(monster_wordcloud, here("Tidy_Tuesday", "Monsters", "Output", "monster_wordcloud.html"))
 
 ```
 
