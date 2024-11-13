@@ -1,3 +1,2 @@
-# Deck
-## My *Very* First Repository
-##### This page will contain all my files and scripts for the Data Science Fundamentals in R- Fall 2024
+# This is my respository for *MBIO612: Data Science Fundamentals in R*
+### Within each week's folder there will be scripts, data, and outputs
