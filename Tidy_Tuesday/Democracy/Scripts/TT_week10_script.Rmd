@@ -29,7 +29,7 @@ democracy_data <- readr::read_csv('https://raw.githubusercontent.com/rfordatasci
 glimpse(democracy_data)
 
 ##Save to data folder 
-readr::write_csv(democracy_data, here::here("Tidy_Tuesday", "Week_10", "Data", "outer_space_objects.csv"))
+readr::write_csv(democracy_data, here::here("Tidy_Tuesday", "Democracy", "Data", "outer_space_objects.csv"))
 
 ```
 
