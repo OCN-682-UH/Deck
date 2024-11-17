@@ -108,3 +108,7 @@ ISO_plot
 ```
 
 ## Saving
+```{r}
+ggsave(here("Tidy_Tuesday", "ISO_codes", "Output", "ISO_plot.png"), bg = "white")
+```
+

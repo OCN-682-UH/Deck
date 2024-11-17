@@ -107,3 +107,8 @@ ISO_plot
 <img src="ISO_script_files/figure-html/unnamed-chunk-4-1.png" style="display: block; margin: auto;" />
 
 ## Saving
+
+``` r
+ggsave(here("Tidy_Tuesday", "ISO_codes", "Output", "ISO_plot.png"))
+```
+
