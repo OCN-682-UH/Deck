@@ -19,7 +19,6 @@ library(here)
 library(maps)
 library(mapdata)
 library(mapproj)
-library(beyonce)
 ```
 
 ## Bring in data
@@ -52,12 +51,12 @@ country_joined <- countries %>%
 ##get lat and long for countries
 world <- map_data("world")
 
-##get world data and fix country names to match
-world <- map_data("world") %>%
-  mutate(region = case_when(
+##more data editing
+world <- map_data("world") %>% ##get world data
+  mutate(region = case_when( ##fix country names to match
     region == "USA" ~ "United States",
     region == "UK" ~ "United Kingdom",
-     region == "Democratic Republic of the Congo" ~ "Congo, Democratic Republic Of The",
+    region == "Democratic Republic of the Congo" ~ "Congo, The Democratic Republic of the",
     region == "Republic of Congo" ~ "Congo",
     region == "Czech Republic" ~ "Czechia",
     region == "Ivory Coast" ~ "Côte D'Ivoire",
@@ -65,31 +64,22 @@ world <- map_data("world") %>%
     region == "Bolivia" ~ "Bolivia, Plurinational State of",
     region == "Venezuela" ~ "Venezuela, Bolivarian Republic of",
     region == "Tanzania" ~ "Tanzania, United Republic of",
-    TRUE ~ region
-  ))
-
-##join data sets
-world_data <- world %>%
-  inner_join(country_joined, by = c("region" = "name"))
+    TRUE ~ region))%>%
+  inner_join(country_joined, by = c("region" = "name")) ##join datasets
 ```
 
 ## Plot 
 
 ``` r
-ISO_plot <- world_data %>%
+ISO_plot <- world %>%
   ggplot(aes(x = long, 
              y = lat, 
              group = group,
              fill = subdivision_count)) +
   geom_polygon(color = "white", size = 0.1) + ##adds country shapes and puts thin white line between them 
-  scale_fill_gradient2( # add color scale 
-    low = "#298", #white
-    mid = "#2ca25f", #light green
-    high = "#006", #dark green
-    midpoint = median(world_data$subdivision_count), ##center color scale at median value
+  scale_fill_viridis_c(option = "viridis",  
     name = "Number of Subdivisions",
-    labels = function(x) round(x, 0)  # Round the legend numbers
-  ) +
+    labels = function(x) round(x, 0)) +
   theme_minimal() + #add theme
   labs(title = "Number of ISO Identified Subdivisions by Country", #title
        caption = "Source: Tidy Tuesday ISO Country Codes dataset") + #caption
@@ -109,6 +99,6 @@ ISO_plot
 ## Saving
 
 ``` r
-ggsave(here("Tidy_Tuesday", "ISO_codes", "Output", "ISO_plot.png"))
+ggsave(here("Tidy_Tuesday", "ISO_codes", "Output", "ISO_plot.png"), bg = "white")
 ```
 
