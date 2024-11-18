@@ -54,9 +54,9 @@ country_joined <- countries %>%
 ##get lat and long for countries
 world <- map_data("world")
 
-##get world data and fix country names to match
-world <- map_data("world") %>%
-  mutate(region = case_when(
+##more data editing
+world <- map_data("world") %>% ##get world data
+  mutate(region = case_when( ##fix country names to match
     region == "USA" ~ "United States",
     region == "UK" ~ "United Kingdom",
     region == "Democratic Republic of the Congo" ~ "Congo, The Democratic Republic of the",
@@ -67,18 +67,15 @@ world <- map_data("world") %>%
     region == "Bolivia" ~ "Bolivia, Plurinational State of",
     region == "Venezuela" ~ "Venezuela, Bolivarian Republic of",
     region == "Tanzania" ~ "Tanzania, United Republic of",
-    TRUE ~ region
-  ))
+    TRUE ~ region))%>%
+  inner_join(country_joined, by = c("region" = "name")) ##join datasets
 
-##join data sets
-world_data <- world %>%
-  inner_join(country_joined, by = c("region" = "name"))
 
 ```
 
 ## Plot 
 ```{r, fig.align='center'}
-ISO_plot <- world_data %>%
+ISO_plot <- world %>%
   ggplot(aes(x = long, 
              y = lat, 
              group = group,
