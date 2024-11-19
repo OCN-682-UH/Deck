@@ -10,7 +10,7 @@ palette5 <- c("#2E8B57", "#4682B4", "#CD853F")
 ##Data is already converted to long format and cleaned up 
 ##I want to insert a select box where you can choose a site and it will show you percent cover of benthic organisms for that site by quadrat
 
-
+Intertidal_data_final <- read_csv('Intertidal_data_final.csv')
 
 ##Making my app
 ##first UI chunk 

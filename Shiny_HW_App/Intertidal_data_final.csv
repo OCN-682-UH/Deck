@@ -1,0 +1,3151 @@
+site,transect,quadrat,Cover,Percent
+Scripps,1,Low,bare_rock,25
+Scripps,1,Low,algae,75
+Scripps,1,Low,mussels,0
+Scripps,1,Low,small_barnacles,2
+Scripps,1,Low,large_barnacles,5
+Scripps,1,Low,gooseneck_barnacles,0
+Scripps,1,Low,anemone,3
+Scripps,1,Mid,bare_rock,50
+Scripps,1,Mid,algae,0
+Scripps,1,Mid,mussels,5
+Scripps,1,Mid,small_barnacles,50
+Scripps,1,Mid,large_barnacles,5
+Scripps,1,Mid,gooseneck_barnacles,0
+Scripps,1,Mid,anemone,0
+Scripps,1,High,bare_rock,20
+Scripps,1,High,algae,50
+Scripps,1,High,mussels,1
+Scripps,1,High,small_barnacles,50
+Scripps,1,High,large_barnacles,0
+Scripps,1,High,gooseneck_barnacles,0
+Scripps,1,High,anemone,0
+Scripps,2,Low,bare_rock,10
+Scripps,2,Low,algae,85
+Scripps,2,Low,mussels,0
+Scripps,2,Low,small_barnacles,0
+Scripps,2,Low,large_barnacles,0
+Scripps,2,Low,gooseneck_barnacles,5
+Scripps,2,Low,anemone,0
+Scripps,2,Mid,bare_rock,40
+Scripps,2,Mid,algae,5
+Scripps,2,Mid,mussels,10
+Scripps,2,Mid,small_barnacles,40
+Scripps,2,Mid,large_barnacles,1
+Scripps,2,Mid,gooseneck_barnacles,5
+Scripps,2,Mid,anemone,0
+Scripps,2,High,bare_rock,40
+Scripps,2,High,algae,5
+Scripps,2,High,mussels,0
+Scripps,2,High,small_barnacles,55
+Scripps,2,High,large_barnacles,0
+Scripps,2,High,gooseneck_barnacles,0
+Scripps,2,High,anemone,0
+Scripps,3,Low,bare_rock,0
+Scripps,3,Low,algae,100
+Scripps,3,Low,mussels,0
+Scripps,3,Low,small_barnacles,0
+Scripps,3,Low,large_barnacles,1
+Scripps,3,Low,gooseneck_barnacles,0
+Scripps,3,Low,anemone,0
+Scripps,3,Mid,bare_rock,30
+Scripps,3,Mid,algae,5
+Scripps,3,Mid,mussels,10
+Scripps,3,Mid,small_barnacles,40
+Scripps,3,Mid,large_barnacles,0
+Scripps,3,Mid,gooseneck_barnacles,30
+Scripps,3,Mid,anemone,0
+Scripps,3,High,bare_rock,60
+Scripps,3,High,algae,4
+Scripps,3,High,mussels,1
+Scripps,3,High,small_barnacles,20
+Scripps,3,High,large_barnacles,0
+Scripps,3,High,gooseneck_barnacles,5
+Scripps,3,High,anemone,0
+Scripps,4,Low,bare_rock,0
+Scripps,4,Low,algae,100
+Scripps,4,Low,mussels,0
+Scripps,4,Low,small_barnacles,0
+Scripps,4,Low,large_barnacles,0
+Scripps,4,Low,gooseneck_barnacles,0
+Scripps,4,Low,anemone,0
+Scripps,4,Mid,bare_rock,45
+Scripps,4,Mid,algae,10
+Scripps,4,Mid,mussels,3
+Scripps,4,Mid,small_barnacles,25
+Scripps,4,Mid,large_barnacles,15
+Scripps,4,Mid,gooseneck_barnacles,0
+Scripps,4,Mid,anemone,5
+Scripps,4,High,bare_rock,70
+Scripps,4,High,algae,0
+Scripps,4,High,mussels,0
+Scripps,4,High,small_barnacles,25
+Scripps,4,High,large_barnacles,5
+Scripps,4,High,gooseneck_barnacles,0
+Scripps,4,High,anemone,0
+Scripps,5,Low,bare_rock,5
+Scripps,5,Low,algae,70
+Scripps,5,Low,mussels,0
+Scripps,5,Low,small_barnacles,20
+Scripps,5,Low,large_barnacles,5
+Scripps,5,Low,gooseneck_barnacles,0
+Scripps,5,Low,anemone,0
+Scripps,5,Mid,bare_rock,30
+Scripps,5,Mid,algae,0
+Scripps,5,Mid,mussels,5
+Scripps,5,Mid,small_barnacles,60
+Scripps,5,Mid,large_barnacles,0
+Scripps,5,Mid,gooseneck_barnacles,0
+Scripps,5,Mid,anemone,10
+Scripps,5,High,bare_rock,15
+Scripps,5,High,algae,0
+Scripps,5,High,mussels,0
+Scripps,5,High,small_barnacles,85
+Scripps,5,High,large_barnacles,0
+Scripps,5,High,gooseneck_barnacles,0
+Scripps,5,High,anemone,0
+Scripps,6,Low,bare_rock,5
+Scripps,6,Low,algae,85
+Scripps,6,Low,mussels,0
+Scripps,6,Low,small_barnacles,5
+Scripps,6,Low,large_barnacles,5
+Scripps,6,Low,gooseneck_barnacles,0
+Scripps,6,Low,anemone,0
+Scripps,6,Mid,bare_rock,30
+Scripps,6,Mid,algae,10
+Scripps,6,Mid,mussels,2
+Scripps,6,Mid,small_barnacles,50
+Scripps,6,Mid,large_barnacles,0
+Scripps,6,Mid,gooseneck_barnacles,0
+Scripps,6,Mid,anemone,10
+Scripps,6,High,bare_rock,85
+Scripps,6,High,algae,0
+Scripps,6,High,mussels,0
+Scripps,6,High,small_barnacles,15
+Scripps,6,High,large_barnacles,0
+Scripps,6,High,gooseneck_barnacles,0
+Scripps,6,High,anemone,0
+Scripps,7,Low,bare_rock,20
+Scripps,7,Low,algae,70
+Scripps,7,Low,mussels,2
+Scripps,7,Low,small_barnacles,3
+Scripps,7,Low,large_barnacles,10
+Scripps,7,Low,gooseneck_barnacles,0
+Scripps,7,Low,anemone,0
+Scripps,7,Mid,bare_rock,25
+Scripps,7,Mid,algae,25
+Scripps,7,Mid,mussels,0
+Scripps,7,Mid,small_barnacles,60
+Scripps,7,Mid,large_barnacles,2
+Scripps,7,Mid,gooseneck_barnacles,10
+Scripps,7,Mid,anemone,3
+Scripps,7,High,bare_rock,20
+Scripps,7,High,algae,0
+Scripps,7,High,mussels,0
+Scripps,7,High,small_barnacles,80
+Scripps,7,High,large_barnacles,0
+Scripps,7,High,gooseneck_barnacles,0
+Scripps,7,High,anemone,0
+Scripps,8,Low,bare_rock,5
+Scripps,8,Low,algae,95
+Scripps,8,Low,mussels,0
+Scripps,8,Low,small_barnacles,0
+Scripps,8,Low,large_barnacles,5
+Scripps,8,Low,gooseneck_barnacles,0
+Scripps,8,Low,anemone,0
+Scripps,8,Mid,bare_rock,20
+Scripps,8,Mid,algae,10
+Scripps,8,Mid,mussels,5
+Scripps,8,Mid,small_barnacles,60
+Scripps,8,Mid,large_barnacles,0
+Scripps,8,Mid,gooseneck_barnacles,10
+Scripps,8,Mid,anemone,0
+Scripps,8,High,bare_rock,30
+Scripps,8,High,algae,0
+Scripps,8,High,mussels,0
+Scripps,8,High,small_barnacles,70
+Scripps,8,High,large_barnacles,0
+Scripps,8,High,gooseneck_barnacles,0
+Scripps,8,High,anemone,0
+Scripps,9,Low,bare_rock,10
+Scripps,9,Low,algae,65
+Scripps,9,Low,mussels,0
+Scripps,9,Low,small_barnacles,3
+Scripps,9,Low,large_barnacles,3
+Scripps,9,Low,gooseneck_barnacles,0
+Scripps,9,Low,anemone,25
+Scripps,9,Mid,bare_rock,0
+Scripps,9,Mid,algae,10
+Scripps,9,Mid,mussels,3
+Scripps,9,Mid,small_barnacles,80
+Scripps,9,Mid,large_barnacles,0
+Scripps,9,Mid,gooseneck_barnacles,5
+Scripps,9,Mid,anemone,2
+Scripps,9,High,bare_rock,15
+Scripps,9,High,algae,25
+Scripps,9,High,mussels,0
+Scripps,9,High,small_barnacles,80
+Scripps,9,High,large_barnacles,0
+Scripps,9,High,gooseneck_barnacles,0
+Scripps,9,High,anemone,0
+Scripps,10,Low,bare_rock,30
+Scripps,10,Low,algae,45
+Scripps,10,Low,mussels,0
+Scripps,10,Low,small_barnacles,10
+Scripps,10,Low,large_barnacles,5
+Scripps,10,Low,gooseneck_barnacles,0
+Scripps,10,Low,anemone,10
+Scripps,10,Mid,bare_rock,60
+Scripps,10,Mid,algae,10
+Scripps,10,Mid,mussels,0
+Scripps,10,Mid,small_barnacles,30
+Scripps,10,Mid,large_barnacles,0
+Scripps,10,Mid,gooseneck_barnacles,1
+Scripps,10,Mid,anemone,0
+Scripps,10,High,bare_rock,5
+Scripps,10,High,algae,0
+Scripps,10,High,mussels,0
+Scripps,10,High,small_barnacles,95
+Scripps,10,High,large_barnacles,0
+Scripps,10,High,gooseneck_barnacles,0
+Scripps,10,High,anemone,0
+Dana Point,1,Low,bare_rock,0
+Dana Point,1,Low,algae,100
+Dana Point,1,Low,mussels,0
+Dana Point,1,Low,small_barnacles,0
+Dana Point,1,Low,large_barnacles,0
+Dana Point,1,Low,gooseneck_barnacles,0
+Dana Point,1,Low,anemone,0
+Dana Point,1,Mid,bare_rock,5
+Dana Point,1,Mid,algae,50
+Dana Point,1,Mid,mussels,10
+Dana Point,1,Mid,small_barnacles,50
+Dana Point,1,Mid,large_barnacles,30
+Dana Point,1,Mid,gooseneck_barnacles,0
+Dana Point,1,Mid,anemone,2
+Dana Point,1,High,bare_rock,15
+Dana Point,1,High,algae,25
+Dana Point,1,High,mussels,5
+Dana Point,1,High,small_barnacles,60
+Dana Point,1,High,large_barnacles,5
+Dana Point,1,High,gooseneck_barnacles,0
+Dana Point,1,High,anemone,2
+Dana Point,2,Low,bare_rock,2
+Dana Point,2,Low,algae,95
+Dana Point,2,Low,mussels,0
+Dana Point,2,Low,small_barnacles,0
+Dana Point,2,Low,large_barnacles,1
+Dana Point,2,Low,gooseneck_barnacles,0
+Dana Point,2,Low,anemone,3
+Dana Point,2,Mid,bare_rock,5
+Dana Point,2,Mid,algae,80
+Dana Point,2,Mid,mussels,25
+Dana Point,2,Mid,small_barnacles,15
+Dana Point,2,Mid,large_barnacles,10
+Dana Point,2,Mid,gooseneck_barnacles,2
+Dana Point,2,Mid,anemone,3
+Dana Point,2,High,bare_rock,2
+Dana Point,2,High,algae,1
+Dana Point,2,High,mussels,3
+Dana Point,2,High,small_barnacles,95
+Dana Point,2,High,large_barnacles,2
+Dana Point,2,High,gooseneck_barnacles,0
+Dana Point,2,High,anemone,0
+Dana Point,3,Low,bare_rock,0
+Dana Point,3,Low,algae,75
+Dana Point,3,Low,mussels,0
+Dana Point,3,Low,small_barnacles,0
+Dana Point,3,Low,large_barnacles,5
+Dana Point,3,Low,gooseneck_barnacles,0
+Dana Point,3,Low,anemone,0
+Dana Point,3,Mid,bare_rock,6
+Dana Point,3,Mid,algae,25
+Dana Point,3,Mid,mussels,25
+Dana Point,3,Mid,small_barnacles,30
+Dana Point,3,Mid,large_barnacles,15
+Dana Point,3,Mid,gooseneck_barnacles,2
+Dana Point,3,Mid,anemone,2
+Dana Point,3,High,bare_rock,0
+Dana Point,3,High,algae,10
+Dana Point,3,High,mussels,10
+Dana Point,3,High,small_barnacles,90
+Dana Point,3,High,large_barnacles,15
+Dana Point,3,High,gooseneck_barnacles,1
+Dana Point,3,High,anemone,0
+Dana Point,4,Low,bare_rock,0
+Dana Point,4,Low,algae,95
+Dana Point,4,Low,mussels,5
+Dana Point,4,Low,small_barnacles,5
+Dana Point,4,Low,large_barnacles,5
+Dana Point,4,Low,gooseneck_barnacles,0
+Dana Point,4,Low,anemone,0
+Dana Point,4,Mid,bare_rock,0
+Dana Point,4,Mid,algae,30
+Dana Point,4,Mid,mussels,5
+Dana Point,4,Mid,small_barnacles,60
+Dana Point,4,Mid,large_barnacles,30
+Dana Point,4,Mid,gooseneck_barnacles,0
+Dana Point,4,Mid,anemone,0
+Dana Point,4,High,bare_rock,15
+Dana Point,4,High,algae,16
+Dana Point,4,High,mussels,5
+Dana Point,4,High,small_barnacles,60
+Dana Point,4,High,large_barnacles,15
+Dana Point,4,High,gooseneck_barnacles,0
+Dana Point,4,High,anemone,0
+Dana Point,5,Low,bare_rock,0
+Dana Point,5,Low,algae,100
+Dana Point,5,Low,mussels,0
+Dana Point,5,Low,small_barnacles,0
+Dana Point,5,Low,large_barnacles,0
+Dana Point,5,Low,gooseneck_barnacles,0
+Dana Point,5,Low,anemone,0
+Dana Point,5,Mid,bare_rock,2
+Dana Point,5,Mid,algae,20
+Dana Point,5,Mid,mussels,35
+Dana Point,5,Mid,small_barnacles,50
+Dana Point,5,Mid,large_barnacles,30
+Dana Point,5,Mid,gooseneck_barnacles,3
+Dana Point,5,Mid,anemone,0
+Dana Point,5,High,bare_rock,0
+Dana Point,5,High,algae,5
+Dana Point,5,High,mussels,5
+Dana Point,5,High,small_barnacles,90
+Dana Point,5,High,large_barnacles,2
+Dana Point,5,High,gooseneck_barnacles,0
+Dana Point,5,High,anemone,0
+Dana Point,6,Low,bare_rock,2
+Dana Point,6,Low,algae,95
+Dana Point,6,Low,mussels,0
+Dana Point,6,Low,small_barnacles,0
+Dana Point,6,Low,large_barnacles,3
+Dana Point,6,Low,gooseneck_barnacles,0
+Dana Point,6,Low,anemone,0
+Dana Point,6,Mid,bare_rock,0
+Dana Point,6,Mid,algae,45
+Dana Point,6,Mid,mussels,45
+Dana Point,6,Mid,small_barnacles,60
+Dana Point,6,Mid,large_barnacles,10
+Dana Point,6,Mid,gooseneck_barnacles,0
+Dana Point,6,Mid,anemone,5
+Dana Point,6,High,bare_rock,30
+Dana Point,6,High,algae,3
+Dana Point,6,High,mussels,0
+Dana Point,6,High,small_barnacles,70
+Dana Point,6,High,large_barnacles,2
+Dana Point,6,High,gooseneck_barnacles,0
+Dana Point,6,High,anemone,2
+Dana Point,7,Low,bare_rock,10
+Dana Point,7,Low,algae,90
+Dana Point,7,Low,mussels,0
+Dana Point,7,Low,small_barnacles,5
+Dana Point,7,Low,large_barnacles,2
+Dana Point,7,Low,gooseneck_barnacles,0
+Dana Point,7,Low,anemone,5
+Dana Point,7,Mid,bare_rock,0
+Dana Point,7,Mid,algae,95
+Dana Point,7,Mid,mussels,5
+Dana Point,7,Mid,small_barnacles,0
+Dana Point,7,Mid,large_barnacles,0
+Dana Point,7,Mid,gooseneck_barnacles,0
+Dana Point,7,Mid,anemone,0
+Dana Point,7,High,bare_rock,25
+Dana Point,7,High,algae,25
+Dana Point,7,High,mussels,0
+Dana Point,7,High,small_barnacles,50
+Dana Point,7,High,large_barnacles,0
+Dana Point,7,High,gooseneck_barnacles,0
+Dana Point,7,High,anemone,0
+Dana Point,8,Low,bare_rock,3
+Dana Point,8,Low,algae,95
+Dana Point,8,Low,mussels,0
+Dana Point,8,Low,small_barnacles,1
+Dana Point,8,Low,large_barnacles,2
+Dana Point,8,Low,gooseneck_barnacles,0
+Dana Point,8,Low,anemone,0
+Dana Point,8,Mid,bare_rock,2
+Dana Point,8,Mid,algae,95
+Dana Point,8,Mid,mussels,1
+Dana Point,8,Mid,small_barnacles,3
+Dana Point,8,Mid,large_barnacles,5
+Dana Point,8,Mid,gooseneck_barnacles,0
+Dana Point,8,Mid,anemone,0
+Dana Point,8,High,bare_rock,5
+Dana Point,8,High,algae,0
+Dana Point,8,High,mussels,0
+Dana Point,8,High,small_barnacles,95
+Dana Point,8,High,large_barnacles,0
+Dana Point,8,High,gooseneck_barnacles,0
+Dana Point,8,High,anemone,0
+Dana Point,9,Low,bare_rock,0
+Dana Point,9,Low,algae,100
+Dana Point,9,Low,mussels,0
+Dana Point,9,Low,small_barnacles,0
+Dana Point,9,Low,large_barnacles,0
+Dana Point,9,Low,gooseneck_barnacles,0
+Dana Point,9,Low,anemone,0
+Dana Point,9,Mid,bare_rock,3
+Dana Point,9,Mid,algae,90
+Dana Point,9,Mid,mussels,0
+Dana Point,9,Mid,small_barnacles,10
+Dana Point,9,Mid,large_barnacles,0
+Dana Point,9,Mid,gooseneck_barnacles,0
+Dana Point,9,Mid,anemone,2
+Dana Point,9,High,bare_rock,3
+Dana Point,9,High,algae,15
+Dana Point,9,High,mussels,5
+Dana Point,9,High,small_barnacles,80
+Dana Point,9,High,large_barnacles,0
+Dana Point,9,High,gooseneck_barnacles,0
+Dana Point,9,High,anemone,2
+Dana Point,10,Low,bare_rock,0
+Dana Point,10,Low,algae,95
+Dana Point,10,Low,mussels,0
+Dana Point,10,Low,small_barnacles,2
+Dana Point,10,Low,large_barnacles,1
+Dana Point,10,Low,gooseneck_barnacles,0
+Dana Point,10,Low,anemone,2
+Dana Point,10,Mid,bare_rock,0
+Dana Point,10,Mid,algae,95
+Dana Point,10,Mid,mussels,0
+Dana Point,10,Mid,small_barnacles,2
+Dana Point,10,Mid,large_barnacles,1
+Dana Point,10,Mid,gooseneck_barnacles,0
+Dana Point,10,Mid,anemone,2
+Dana Point,10,High,bare_rock,0
+Dana Point,10,High,algae,10
+Dana Point,10,High,mussels,0
+Dana Point,10,High,small_barnacles,90
+Dana Point,10,High,large_barnacles,0
+Dana Point,10,High,gooseneck_barnacles,0
+Dana Point,10,High,anemone,0
+Crystal Cove,1,Low,bare_rock,0
+Crystal Cove,1,Low,algae,100
+Crystal Cove,1,Low,mussels,0
+Crystal Cove,1,Low,small_barnacles,0
+Crystal Cove,1,Low,large_barnacles,0
+Crystal Cove,1,Low,gooseneck_barnacles,0
+Crystal Cove,1,Low,anemone,0
+Crystal Cove,1,Mid,bare_rock,30
+Crystal Cove,1,Mid,algae,5
+Crystal Cove,1,Mid,mussels,60
+Crystal Cove,1,Mid,small_barnacles,10
+Crystal Cove,1,Mid,large_barnacles,5
+Crystal Cove,1,Mid,gooseneck_barnacles,30
+Crystal Cove,1,Mid,anemone,5
+Crystal Cove,1,High,bare_rock,5
+Crystal Cove,1,High,algae,3
+Crystal Cove,1,High,mussels,2
+Crystal Cove,1,High,small_barnacles,90
+Crystal Cove,1,High,large_barnacles,0
+Crystal Cove,1,High,gooseneck_barnacles,0
+Crystal Cove,1,High,anemone,0
+Crystal Cove,2,Low,bare_rock,0
+Crystal Cove,2,Low,algae,80
+Crystal Cove,2,Low,mussels,10
+Crystal Cove,2,Low,small_barnacles,0
+Crystal Cove,2,Low,large_barnacles,1
+Crystal Cove,2,Low,gooseneck_barnacles,0
+Crystal Cove,2,Low,anemone,0
+Crystal Cove,2,Mid,bare_rock,15
+Crystal Cove,2,Mid,algae,3
+Crystal Cove,2,Mid,mussels,50
+Crystal Cove,2,Mid,small_barnacles,30
+Crystal Cove,2,Mid,large_barnacles,3
+Crystal Cove,2,Mid,gooseneck_barnacles,25
+Crystal Cove,2,Mid,anemone,2
+Crystal Cove,2,High,bare_rock,30
+Crystal Cove,2,High,algae,0
+Crystal Cove,2,High,mussels,10
+Crystal Cove,2,High,small_barnacles,40
+Crystal Cove,2,High,large_barnacles,0
+Crystal Cove,2,High,gooseneck_barnacles,10
+Crystal Cove,2,High,anemone,10
+Crystal Cove,3,Low,bare_rock,5
+Crystal Cove,3,Low,algae,80
+Crystal Cove,3,Low,mussels,2
+Crystal Cove,3,Low,small_barnacles,1
+Crystal Cove,3,Low,large_barnacles,15
+Crystal Cove,3,Low,gooseneck_barnacles,1
+Crystal Cove,3,Low,anemone,3
+Crystal Cove,3,Mid,bare_rock,0
+Crystal Cove,3,Mid,algae,15
+Crystal Cove,3,Mid,mussels,60
+Crystal Cove,3,Mid,small_barnacles,15
+Crystal Cove,3,Mid,large_barnacles,5
+Crystal Cove,3,Mid,gooseneck_barnacles,40
+Crystal Cove,3,Mid,anemone,10
+Crystal Cove,3,High,bare_rock,30
+Crystal Cove,3,High,algae,0
+Crystal Cove,3,High,mussels,5
+Crystal Cove,3,High,small_barnacles,50
+Crystal Cove,3,High,large_barnacles,3
+Crystal Cove,3,High,gooseneck_barnacles,10
+Crystal Cove,3,High,anemone,2
+Crystal Cove,4,Low,bare_rock,0
+Crystal Cove,4,Low,algae,80
+Crystal Cove,4,Low,mussels,20
+Crystal Cove,4,Low,small_barnacles,2
+Crystal Cove,4,Low,large_barnacles,5
+Crystal Cove,4,Low,gooseneck_barnacles,0
+Crystal Cove,4,Low,anemone,3
+Crystal Cove,4,Mid,bare_rock,15
+Crystal Cove,4,Mid,algae,3
+Crystal Cove,4,Mid,mussels,40
+Crystal Cove,4,Mid,small_barnacles,10
+Crystal Cove,4,Mid,large_barnacles,2
+Crystal Cove,4,Mid,gooseneck_barnacles,50
+Crystal Cove,4,Mid,anemone,5
+Crystal Cove,4,High,bare_rock,5
+Crystal Cove,4,High,algae,0
+Crystal Cove,4,High,mussels,2
+Crystal Cove,4,High,small_barnacles,90
+Crystal Cove,4,High,large_barnacles,1
+Crystal Cove,4,High,gooseneck_barnacles,0
+Crystal Cove,4,High,anemone,3
+Crystal Cove,5,Low,bare_rock,5
+Crystal Cove,5,Low,algae,45
+Crystal Cove,5,Low,mussels,1
+Crystal Cove,5,Low,small_barnacles,0
+Crystal Cove,5,Low,large_barnacles,15
+Crystal Cove,5,Low,gooseneck_barnacles,1
+Crystal Cove,5,Low,anemone,35
+Crystal Cove,5,Mid,bare_rock,15
+Crystal Cove,5,Mid,algae,5
+Crystal Cove,5,Mid,mussels,30
+Crystal Cove,5,Mid,small_barnacles,25
+Crystal Cove,5,Mid,large_barnacles,5
+Crystal Cove,5,Mid,gooseneck_barnacles,30
+Crystal Cove,5,Mid,anemone,5
+Crystal Cove,5,High,bare_rock,10
+Crystal Cove,5,High,algae,5
+Crystal Cove,5,High,mussels,5
+Crystal Cove,5,High,small_barnacles,70
+Crystal Cove,5,High,large_barnacles,0
+Crystal Cove,5,High,gooseneck_barnacles,0
+Crystal Cove,5,High,anemone,10
+Crystal Cove,6,Low,bare_rock,5
+Crystal Cove,6,Low,algae,80
+Crystal Cove,6,Low,mussels,0
+Crystal Cove,6,Low,small_barnacles,0
+Crystal Cove,6,Low,large_barnacles,1
+Crystal Cove,6,Low,gooseneck_barnacles,0
+Crystal Cove,6,Low,anemone,15
+Crystal Cove,6,Mid,bare_rock,20
+Crystal Cove,6,Mid,algae,0
+Crystal Cove,6,Mid,mussels,80
+Crystal Cove,6,Mid,small_barnacles,50
+Crystal Cove,6,Mid,large_barnacles,5
+Crystal Cove,6,Mid,gooseneck_barnacles,10
+Crystal Cove,6,Mid,anemone,5
+Crystal Cove,6,High,bare_rock,40
+Crystal Cove,6,High,algae,6
+Crystal Cove,6,High,mussels,2
+Crystal Cove,6,High,small_barnacles,50
+Crystal Cove,6,High,large_barnacles,2
+Crystal Cove,6,High,gooseneck_barnacles,2
+Crystal Cove,6,High,anemone,4
+Crystal Cove,7,Low,bare_rock,15
+Crystal Cove,7,Low,algae,80
+Crystal Cove,7,Low,mussels,0
+Crystal Cove,7,Low,small_barnacles,0
+Crystal Cove,7,Low,large_barnacles,0
+Crystal Cove,7,Low,gooseneck_barnacles,0
+Crystal Cove,7,Low,anemone,5
+Crystal Cove,7,Mid,bare_rock,10
+Crystal Cove,7,Mid,algae,0
+Crystal Cove,7,Mid,mussels,50
+Crystal Cove,7,Mid,small_barnacles,5
+Crystal Cove,7,Mid,large_barnacles,5
+Crystal Cove,7,Mid,gooseneck_barnacles,0
+Crystal Cove,7,Mid,anemone,40
+Crystal Cove,7,High,bare_rock,5
+Crystal Cove,7,High,algae,5
+Crystal Cove,7,High,mussels,5
+Crystal Cove,7,High,small_barnacles,75
+Crystal Cove,7,High,large_barnacles,0
+Crystal Cove,7,High,gooseneck_barnacles,10
+Crystal Cove,7,High,anemone,0
+Crystal Cove,8,Low,bare_rock,0
+Crystal Cove,8,Low,algae,70
+Crystal Cove,8,Low,mussels,0
+Crystal Cove,8,Low,small_barnacles,0
+Crystal Cove,8,Low,large_barnacles,0
+Crystal Cove,8,Low,gooseneck_barnacles,0
+Crystal Cove,8,Low,anemone,30
+Crystal Cove,8,Mid,bare_rock,20
+Crystal Cove,8,Mid,algae,15
+Crystal Cove,8,Mid,mussels,30
+Crystal Cove,8,Mid,small_barnacles,5
+Crystal Cove,8,Mid,large_barnacles,0
+Crystal Cove,8,Mid,gooseneck_barnacles,35
+Crystal Cove,8,Mid,anemone,25
+Crystal Cove,8,High,bare_rock,25
+Crystal Cove,8,High,algae,5
+Crystal Cove,8,High,mussels,5
+Crystal Cove,8,High,small_barnacles,50
+Crystal Cove,8,High,large_barnacles,1
+Crystal Cove,8,High,gooseneck_barnacles,15
+Crystal Cove,8,High,anemone,0
+Crystal Cove,9,Low,bare_rock,0
+Crystal Cove,9,Low,algae,60
+Crystal Cove,9,Low,mussels,0
+Crystal Cove,9,Low,small_barnacles,0
+Crystal Cove,9,Low,large_barnacles,0
+Crystal Cove,9,Low,gooseneck_barnacles,0
+Crystal Cove,9,Low,anemone,40
+Crystal Cove,9,Mid,bare_rock,20
+Crystal Cove,9,Mid,algae,0
+Crystal Cove,9,Mid,mussels,30
+Crystal Cove,9,Mid,small_barnacles,40
+Crystal Cove,9,Mid,large_barnacles,1
+Crystal Cove,9,Mid,gooseneck_barnacles,20
+Crystal Cove,9,Mid,anemone,10
+Crystal Cove,9,High,bare_rock,2
+Crystal Cove,9,High,algae,0
+Crystal Cove,9,High,mussels,0
+Crystal Cove,9,High,small_barnacles,98
+Crystal Cove,9,High,large_barnacles,0
+Crystal Cove,9,High,gooseneck_barnacles,0
+Crystal Cove,9,High,anemone,0
+Crystal Cove,10,Low,bare_rock,0
+Crystal Cove,10,Low,algae,85
+Crystal Cove,10,Low,mussels,10
+Crystal Cove,10,Low,small_barnacles,0
+Crystal Cove,10,Low,large_barnacles,0
+Crystal Cove,10,Low,gooseneck_barnacles,0
+Crystal Cove,10,Low,anemone,5
+Crystal Cove,10,Mid,bare_rock,0
+Crystal Cove,10,Mid,algae,5
+Crystal Cove,10,Mid,mussels,50
+Crystal Cove,10,Mid,small_barnacles,3
+Crystal Cove,10,Mid,large_barnacles,10
+Crystal Cove,10,Mid,gooseneck_barnacles,5
+Crystal Cove,10,Mid,anemone,40
+Crystal Cove,10,High,bare_rock,40
+Crystal Cove,10,High,algae,10
+Crystal Cove,10,High,mussels,15
+Crystal Cove,10,High,small_barnacles,10
+Crystal Cove,10,High,large_barnacles,5
+Crystal Cove,10,High,gooseneck_barnacles,20
+Crystal Cove,10,High,anemone,15
+Little Corona,1,Low,bare_rock,0
+Little Corona,1,Low,algae,100
+Little Corona,1,Low,mussels,0
+Little Corona,1,Low,small_barnacles,0
+Little Corona,1,Low,large_barnacles,0
+Little Corona,1,Low,gooseneck_barnacles,0
+Little Corona,1,Low,anemone,0
+Little Corona,1,Mid,bare_rock,5
+Little Corona,1,Mid,algae,90
+Little Corona,1,Mid,mussels,10
+Little Corona,1,Mid,small_barnacles,4
+Little Corona,1,Mid,large_barnacles,3
+Little Corona,1,Mid,gooseneck_barnacles,3
+Little Corona,1,Mid,anemone,1
+Little Corona,1,High,bare_rock,90
+Little Corona,1,High,algae,5
+Little Corona,1,High,mussels,0
+Little Corona,1,High,small_barnacles,5
+Little Corona,1,High,large_barnacles,0
+Little Corona,1,High,gooseneck_barnacles,0
+Little Corona,1,High,anemone,0
+Little Corona,2,Low,bare_rock,20
+Little Corona,2,Low,algae,80
+Little Corona,2,Low,mussels,0
+Little Corona,2,Low,small_barnacles,0
+Little Corona,2,Low,large_barnacles,1
+Little Corona,2,Low,gooseneck_barnacles,0
+Little Corona,2,Low,anemone,0
+Little Corona,2,Mid,bare_rock,50
+Little Corona,2,Mid,algae,30
+Little Corona,2,Mid,mussels,5
+Little Corona,2,Mid,small_barnacles,5
+Little Corona,2,Mid,large_barnacles,5
+Little Corona,2,Mid,gooseneck_barnacles,5
+Little Corona,2,Mid,anemone,3
+Little Corona,2,High,bare_rock,80
+Little Corona,2,High,algae,1
+Little Corona,2,High,mussels,0
+Little Corona,2,High,small_barnacles,10
+Little Corona,2,High,large_barnacles,0
+Little Corona,2,High,gooseneck_barnacles,0
+Little Corona,2,High,anemone,20
+Little Corona,3,Low,bare_rock,0
+Little Corona,3,Low,algae,100
+Little Corona,3,Low,mussels,0
+Little Corona,3,Low,small_barnacles,0
+Little Corona,3,Low,large_barnacles,1
+Little Corona,3,Low,gooseneck_barnacles,0
+Little Corona,3,Low,anemone,0
+Little Corona,3,Mid,bare_rock,30
+Little Corona,3,Mid,algae,40
+Little Corona,3,Mid,mussels,5
+Little Corona,3,Mid,small_barnacles,10
+Little Corona,3,Mid,large_barnacles,5
+Little Corona,3,Mid,gooseneck_barnacles,20
+Little Corona,3,Mid,anemone,0
+Little Corona,3,High,bare_rock,75
+Little Corona,3,High,algae,3
+Little Corona,3,High,mussels,2
+Little Corona,3,High,small_barnacles,25
+Little Corona,3,High,large_barnacles,0
+Little Corona,3,High,gooseneck_barnacles,0
+Little Corona,3,High,anemone,0
+Little Corona,4,Low,bare_rock,25
+Little Corona,4,Low,algae,75
+Little Corona,4,Low,mussels,0
+Little Corona,4,Low,small_barnacles,0
+Little Corona,4,Low,large_barnacles,0
+Little Corona,4,Low,gooseneck_barnacles,0
+Little Corona,4,Low,anemone,0
+Little Corona,4,Mid,bare_rock,0
+Little Corona,4,Mid,algae,80
+Little Corona,4,Mid,mussels,5
+Little Corona,4,Mid,small_barnacles,2
+Little Corona,4,Mid,large_barnacles,3
+Little Corona,4,Mid,gooseneck_barnacles,0
+Little Corona,4,Mid,anemone,0
+Little Corona,4,High,bare_rock,25
+Little Corona,4,High,algae,40
+Little Corona,4,High,mussels,5
+Little Corona,4,High,small_barnacles,30
+Little Corona,4,High,large_barnacles,0
+Little Corona,4,High,gooseneck_barnacles,0
+Little Corona,4,High,anemone,0
+Little Corona,5,Low,bare_rock,20
+Little Corona,5,Low,algae,80
+Little Corona,5,Low,mussels,0
+Little Corona,5,Low,small_barnacles,0
+Little Corona,5,Low,large_barnacles,0
+Little Corona,5,Low,gooseneck_barnacles,0
+Little Corona,5,Low,anemone,0
+Little Corona,5,Mid,bare_rock,30
+Little Corona,5,Mid,algae,60
+Little Corona,5,Mid,mussels,5
+Little Corona,5,Mid,small_barnacles,0
+Little Corona,5,Mid,large_barnacles,5
+Little Corona,5,Mid,gooseneck_barnacles,0
+Little Corona,5,Mid,anemone,3
+Little Corona,5,High,bare_rock,80
+Little Corona,5,High,algae,5
+Little Corona,5,High,mussels,0
+Little Corona,5,High,small_barnacles,15
+Little Corona,5,High,large_barnacles,0
+Little Corona,5,High,gooseneck_barnacles,0
+Little Corona,5,High,anemone,0
+Little Corona,6,Low,bare_rock,2
+Little Corona,6,Low,algae,98
+Little Corona,6,Low,mussels,0
+Little Corona,6,Low,small_barnacles,0
+Little Corona,6,Low,large_barnacles,0
+Little Corona,6,Low,gooseneck_barnacles,0
+Little Corona,6,Low,anemone,0
+Little Corona,6,Mid,bare_rock,50
+Little Corona,6,Mid,algae,40
+Little Corona,6,Mid,mussels,5
+Little Corona,6,Mid,small_barnacles,3
+Little Corona,6,Mid,large_barnacles,0
+Little Corona,6,Mid,gooseneck_barnacles,0
+Little Corona,6,Mid,anemone,5
+Little Corona,6,High,bare_rock,98
+Little Corona,6,High,algae,0
+Little Corona,6,High,mussels,0
+Little Corona,6,High,small_barnacles,2
+Little Corona,6,High,large_barnacles,0
+Little Corona,6,High,gooseneck_barnacles,0
+Little Corona,6,High,anemone,0
+Little Corona,7,Low,bare_rock,5
+Little Corona,7,Low,algae,95
+Little Corona,7,Low,mussels,0
+Little Corona,7,Low,small_barnacles,0
+Little Corona,7,Low,large_barnacles,0
+Little Corona,7,Low,gooseneck_barnacles,0
+Little Corona,7,Low,anemone,0
+Little Corona,7,Mid,bare_rock,20
+Little Corona,7,Mid,algae,30
+Little Corona,7,Mid,mussels,15
+Little Corona,7,Mid,small_barnacles,10
+Little Corona,7,Mid,large_barnacles,5
+Little Corona,7,Mid,gooseneck_barnacles,0
+Little Corona,7,Mid,anemone,0
+Little Corona,7,High,bare_rock,60
+Little Corona,7,High,algae,35
+Little Corona,7,High,mussels,0
+Little Corona,7,High,small_barnacles,5
+Little Corona,7,High,large_barnacles,0
+Little Corona,7,High,gooseneck_barnacles,0
+Little Corona,7,High,anemone,0
+Little Corona,8,Low,bare_rock,30
+Little Corona,8,Low,algae,70
+Little Corona,8,Low,mussels,2
+Little Corona,8,Low,small_barnacles,0
+Little Corona,8,Low,large_barnacles,0
+Little Corona,8,Low,gooseneck_barnacles,0
+Little Corona,8,Low,anemone,0
+Little Corona,8,Mid,bare_rock,25
+Little Corona,8,Mid,algae,35
+Little Corona,8,Mid,mussels,20
+Little Corona,8,Mid,small_barnacles,5
+Little Corona,8,Mid,large_barnacles,5
+Little Corona,8,Mid,gooseneck_barnacles,15
+Little Corona,8,Mid,anemone,0
+Little Corona,8,High,bare_rock,85
+Little Corona,8,High,algae,15
+Little Corona,8,High,mussels,3
+Little Corona,8,High,small_barnacles,2
+Little Corona,8,High,large_barnacles,0
+Little Corona,8,High,gooseneck_barnacles,0
+Little Corona,8,High,anemone,0
+Little Corona,9,Low,bare_rock,15
+Little Corona,9,Low,algae,85
+Little Corona,9,Low,mussels,0
+Little Corona,9,Low,small_barnacles,0
+Little Corona,9,Low,large_barnacles,1
+Little Corona,9,Low,gooseneck_barnacles,0
+Little Corona,9,Low,anemone,0
+Little Corona,9,Mid,bare_rock,5
+Little Corona,9,Mid,algae,75
+Little Corona,9,Mid,mussels,10
+Little Corona,9,Mid,small_barnacles,2
+Little Corona,9,Mid,large_barnacles,5
+Little Corona,9,Mid,gooseneck_barnacles,10
+Little Corona,9,Mid,anemone,0
+Little Corona,9,High,bare_rock,50
+Little Corona,9,High,algae,25
+Little Corona,9,High,mussels,5
+Little Corona,9,High,small_barnacles,25
+Little Corona,9,High,large_barnacles,1
+Little Corona,9,High,gooseneck_barnacles,0
+Little Corona,9,High,anemone,0
+Little Corona,10,Low,bare_rock,0
+Little Corona,10,Low,algae,95
+Little Corona,10,Low,mussels,0
+Little Corona,10,Low,small_barnacles,0
+Little Corona,10,Low,large_barnacles,0
+Little Corona,10,Low,gooseneck_barnacles,0
+Little Corona,10,Low,anemone,5
+Little Corona,10,Mid,bare_rock,60
+Little Corona,10,Mid,algae,25
+Little Corona,10,Mid,mussels,5
+Little Corona,10,Mid,small_barnacles,0
+Little Corona,10,Mid,large_barnacles,2
+Little Corona,10,Mid,gooseneck_barnacles,10
+Little Corona,10,Mid,anemone,0
+Little Corona,10,High,bare_rock,65
+Little Corona,10,High,algae,15
+Little Corona,10,High,mussels,3
+Little Corona,10,High,small_barnacles,15
+Little Corona,10,High,large_barnacles,2
+Little Corona,10,High,gooseneck_barnacles,0
+Little Corona,10,High,anemone,0
+Carpenteria,1,Low,bare_rock,5
+Carpenteria,1,Low,algae,50
+Carpenteria,1,Low,mussels,40
+Carpenteria,1,Low,small_barnacles,30
+Carpenteria,1,Low,large_barnacles,0
+Carpenteria,1,Low,gooseneck_barnacles,60
+Carpenteria,1,Low,anemone,5
+Carpenteria,1,Mid,bare_rock,25
+Carpenteria,1,Mid,algae,1
+Carpenteria,1,Mid,mussels,30
+Carpenteria,1,Mid,small_barnacles,20
+Carpenteria,1,Mid,large_barnacles,0
+Carpenteria,1,Mid,gooseneck_barnacles,20
+Carpenteria,1,Mid,anemone,25
+Carpenteria,1,High,bare_rock,70
+Carpenteria,1,High,algae,5
+Carpenteria,1,High,mussels,1
+Carpenteria,1,High,small_barnacles,15
+Carpenteria,1,High,large_barnacles,0
+Carpenteria,1,High,gooseneck_barnacles,10
+Carpenteria,1,High,anemone,0
+Carpenteria,2,Low,bare_rock,5
+Carpenteria,2,Low,algae,60
+Carpenteria,2,Low,mussels,80
+Carpenteria,2,Low,small_barnacles,20
+Carpenteria,2,Low,large_barnacles,0
+Carpenteria,2,Low,gooseneck_barnacles,15
+Carpenteria,2,Low,anemone,5
+Carpenteria,2,Mid,bare_rock,10
+Carpenteria,2,Mid,algae,25
+Carpenteria,2,Mid,mussels,30
+Carpenteria,2,Mid,small_barnacles,25
+Carpenteria,2,Mid,large_barnacles,0
+Carpenteria,2,Mid,gooseneck_barnacles,60
+Carpenteria,2,Mid,anemone,0
+Carpenteria,2,High,bare_rock,45
+Carpenteria,2,High,algae,0
+Carpenteria,2,High,mussels,15
+Carpenteria,2,High,small_barnacles,40
+Carpenteria,2,High,large_barnacles,0
+Carpenteria,2,High,gooseneck_barnacles,0
+Carpenteria,2,High,anemone,0
+Carpenteria,3,Low,bare_rock,20
+Carpenteria,3,Low,algae,60
+Carpenteria,3,Low,mussels,60
+Carpenteria,3,Low,small_barnacles,20
+Carpenteria,3,Low,large_barnacles,0
+Carpenteria,3,Low,gooseneck_barnacles,10
+Carpenteria,3,Low,anemone,20
+Carpenteria,3,Mid,bare_rock,0
+Carpenteria,3,Mid,algae,30
+Carpenteria,3,Mid,mussels,60
+Carpenteria,3,Mid,small_barnacles,10
+Carpenteria,3,Mid,large_barnacles,0
+Carpenteria,3,Mid,gooseneck_barnacles,40
+Carpenteria,3,Mid,anemone,0
+Carpenteria,3,High,bare_rock,20
+Carpenteria,3,High,algae,0
+Carpenteria,3,High,mussels,20
+Carpenteria,3,High,small_barnacles,25
+Carpenteria,3,High,large_barnacles,0
+Carpenteria,3,High,gooseneck_barnacles,5
+Carpenteria,3,High,anemone,0
+Carpenteria,4,Low,bare_rock,0
+Carpenteria,4,Low,algae,75
+Carpenteria,4,Low,mussels,20
+Carpenteria,4,Low,small_barnacles,20
+Carpenteria,4,Low,large_barnacles,0
+Carpenteria,4,Low,gooseneck_barnacles,0
+Carpenteria,4,Low,anemone,25
+Carpenteria,4,Mid,bare_rock,20
+Carpenteria,4,Mid,algae,15
+Carpenteria,4,Mid,mussels,25
+Carpenteria,4,Mid,small_barnacles,15
+Carpenteria,4,Mid,large_barnacles,0
+Carpenteria,4,Mid,gooseneck_barnacles,40
+Carpenteria,4,Mid,anemone,0
+Carpenteria,4,High,bare_rock,40
+Carpenteria,4,High,algae,2
+Carpenteria,4,High,mussels,10
+Carpenteria,4,High,small_barnacles,40
+Carpenteria,4,High,large_barnacles,0
+Carpenteria,4,High,gooseneck_barnacles,5
+Carpenteria,4,High,anemone,5
+Carpenteria,5,Low,bare_rock,0
+Carpenteria,5,Low,algae,1
+Carpenteria,5,Low,mussels,50
+Carpenteria,5,Low,small_barnacles,25
+Carpenteria,5,Low,large_barnacles,0
+Carpenteria,5,Low,gooseneck_barnacles,2
+Carpenteria,5,Low,anemone,50
+Carpenteria,5,Mid,bare_rock,15
+Carpenteria,5,Mid,algae,15
+Carpenteria,5,Mid,mussels,60
+Carpenteria,5,Mid,small_barnacles,20
+Carpenteria,5,Mid,large_barnacles,0
+Carpenteria,5,Mid,gooseneck_barnacles,30
+Carpenteria,5,Mid,anemone,0
+Carpenteria,5,High,bare_rock,60
+Carpenteria,5,High,algae,5
+Carpenteria,5,High,mussels,20
+Carpenteria,5,High,small_barnacles,30
+Carpenteria,5,High,large_barnacles,0
+Carpenteria,5,High,gooseneck_barnacles,10
+Carpenteria,5,High,anemone,0
+Carpenteria,6,Low,bare_rock,20
+Carpenteria,6,Low,algae,0
+Carpenteria,6,Low,mussels,40
+Carpenteria,6,Low,small_barnacles,30
+Carpenteria,6,Low,large_barnacles,0
+Carpenteria,6,Low,gooseneck_barnacles,5
+Carpenteria,6,Low,anemone,40
+Carpenteria,6,Mid,bare_rock,30
+Carpenteria,6,Mid,algae,5
+Carpenteria,6,Mid,mussels,50
+Carpenteria,6,Mid,small_barnacles,0
+Carpenteria,6,Mid,large_barnacles,0
+Carpenteria,6,Mid,gooseneck_barnacles,20
+Carpenteria,6,Mid,anemone,0
+Carpenteria,6,High,bare_rock,65
+Carpenteria,6,High,algae,0
+Carpenteria,6,High,mussels,5
+Carpenteria,6,High,small_barnacles,30
+Carpenteria,6,High,large_barnacles,0
+Carpenteria,6,High,gooseneck_barnacles,3
+Carpenteria,6,High,anemone,2
+Carpenteria,7,Low,bare_rock,20
+Carpenteria,7,Low,algae,0
+Carpenteria,7,Low,mussels,20
+Carpenteria,7,Low,small_barnacles,15
+Carpenteria,7,Low,large_barnacles,0
+Carpenteria,7,Low,gooseneck_barnacles,10
+Carpenteria,7,Low,anemone,60
+Carpenteria,7,Mid,bare_rock,65
+Carpenteria,7,Mid,algae,0
+Carpenteria,7,Mid,mussels,20
+Carpenteria,7,Mid,small_barnacles,10
+Carpenteria,7,Mid,large_barnacles,0
+Carpenteria,7,Mid,gooseneck_barnacles,20
+Carpenteria,7,Mid,anemone,5
+Carpenteria,7,High,bare_rock,70
+Carpenteria,7,High,algae,0
+Carpenteria,7,High,mussels,15
+Carpenteria,7,High,small_barnacles,25
+Carpenteria,7,High,large_barnacles,0
+Carpenteria,7,High,gooseneck_barnacles,5
+Carpenteria,7,High,anemone,0
+Carpenteria,8,Mid,bare_rock,75
+Carpenteria,8,Mid,algae,5
+Carpenteria,8,Mid,mussels,20
+Carpenteria,8,Mid,small_barnacles,10
+Carpenteria,8,Mid,large_barnacles,0
+Carpenteria,8,Mid,gooseneck_barnacles,15
+Carpenteria,8,Mid,anemone,5
+Carpenteria,8,Low,bare_rock,30
+Carpenteria,8,Low,algae,10
+Carpenteria,8,Low,mussels,15
+Carpenteria,8,Low,small_barnacles,10
+Carpenteria,8,Low,large_barnacles,0
+Carpenteria,8,Low,gooseneck_barnacles,50
+Carpenteria,8,Low,anemone,0
+Carpenteria,8,High,bare_rock,30
+Carpenteria,8,High,algae,0
+Carpenteria,8,High,mussels,2
+Carpenteria,8,High,small_barnacles,70
+Carpenteria,8,High,large_barnacles,0
+Carpenteria,8,High,gooseneck_barnacles,0
+Carpenteria,8,High,anemone,0
+Carpenteria,9,Low,bare_rock,40
+Carpenteria,9,Low,algae,15
+Carpenteria,9,Low,mussels,30
+Carpenteria,9,Low,small_barnacles,0
+Carpenteria,9,Low,large_barnacles,0
+Carpenteria,9,Low,gooseneck_barnacles,20
+Carpenteria,9,Low,anemone,5
+Carpenteria,9,Mid,bare_rock,50
+Carpenteria,9,Mid,algae,15
+Carpenteria,9,Mid,mussels,15
+Carpenteria,9,Mid,small_barnacles,10
+Carpenteria,9,Mid,large_barnacles,0
+Carpenteria,9,Mid,gooseneck_barnacles,25
+Carpenteria,9,Mid,anemone,0
+Carpenteria,9,High,bare_rock,90
+Carpenteria,9,High,algae,1
+Carpenteria,9,High,mussels,0
+Carpenteria,9,High,small_barnacles,10
+Carpenteria,9,High,large_barnacles,0
+Carpenteria,9,High,gooseneck_barnacles,0
+Carpenteria,9,High,anemone,0
+Carpenteria,10,Low,bare_rock,5
+Carpenteria,10,Low,algae,2
+Carpenteria,10,Low,mussels,20
+Carpenteria,10,Low,small_barnacles,5
+Carpenteria,10,Low,large_barnacles,0
+Carpenteria,10,Low,gooseneck_barnacles,10
+Carpenteria,10,Low,anemone,70
+Carpenteria,10,Mid,bare_rock,35
+Carpenteria,10,Mid,algae,0
+Carpenteria,10,Mid,mussels,30
+Carpenteria,10,Mid,small_barnacles,10
+Carpenteria,10,Mid,large_barnacles,0
+Carpenteria,10,Mid,gooseneck_barnacles,20
+Carpenteria,10,Mid,anemone,15
+Carpenteria,10,High,bare_rock,85
+Carpenteria,10,High,algae,1
+Carpenteria,10,High,mussels,0
+Carpenteria,10,High,small_barnacles,15
+Carpenteria,10,High,large_barnacles,0
+Carpenteria,10,High,gooseneck_barnacles,0
+Carpenteria,10,High,anemone,0
+Shell Beach,1,Low,bare_rock,15
+Shell Beach,1,Low,algae,80
+Shell Beach,1,Low,mussels,0
+Shell Beach,1,Low,small_barnacles,5
+Shell Beach,1,Low,large_barnacles,0
+Shell Beach,1,Low,gooseneck_barnacles,0
+Shell Beach,1,Low,anemone,2
+Shell Beach,1,Mid,bare_rock,20
+Shell Beach,1,Mid,algae,10
+Shell Beach,1,Mid,mussels,80
+Shell Beach,1,Mid,small_barnacles,0
+Shell Beach,1,Mid,large_barnacles,0
+Shell Beach,1,Mid,gooseneck_barnacles,5
+Shell Beach,1,Mid,anemone,5
+Shell Beach,1,High,bare_rock,50
+Shell Beach,1,High,algae,2
+Shell Beach,1,High,mussels,0
+Shell Beach,1,High,small_barnacles,50
+Shell Beach,1,High,large_barnacles,3
+Shell Beach,1,High,gooseneck_barnacles,0
+Shell Beach,1,High,anemone,0
+Shell Beach,2,Low,bare_rock,15
+Shell Beach,2,Low,algae,35
+Shell Beach,2,Low,mussels,0
+Shell Beach,2,Low,small_barnacles,0
+Shell Beach,2,Low,large_barnacles,0
+Shell Beach,2,Low,gooseneck_barnacles,0
+Shell Beach,2,Low,anemone,50
+Shell Beach,2,Mid,bare_rock,10
+Shell Beach,2,Mid,algae,15
+Shell Beach,2,Mid,mussels,85
+Shell Beach,2,Mid,small_barnacles,2
+Shell Beach,2,Mid,large_barnacles,3
+Shell Beach,2,Mid,gooseneck_barnacles,10
+Shell Beach,2,Mid,anemone,5
+Shell Beach,2,High,bare_rock,4
+Shell Beach,2,High,algae,1
+Shell Beach,2,High,mussels,0
+Shell Beach,2,High,small_barnacles,95
+Shell Beach,2,High,large_barnacles,0
+Shell Beach,2,High,gooseneck_barnacles,0
+Shell Beach,2,High,anemone,0
+Shell Beach,3,Low,bare_rock,2
+Shell Beach,3,Low,algae,70
+Shell Beach,3,Low,mussels,5
+Shell Beach,3,Low,small_barnacles,0
+Shell Beach,3,Low,large_barnacles,0
+Shell Beach,3,Low,gooseneck_barnacles,0
+Shell Beach,3,Low,anemone,85
+Shell Beach,3,Mid,bare_rock,10
+Shell Beach,3,Mid,algae,20
+Shell Beach,3,Mid,mussels,60
+Shell Beach,3,Mid,small_barnacles,5
+Shell Beach,3,Mid,large_barnacles,2
+Shell Beach,3,Mid,gooseneck_barnacles,15
+Shell Beach,3,Mid,anemone,5
+Shell Beach,3,High,bare_rock,15
+Shell Beach,3,High,algae,3
+Shell Beach,3,High,mussels,0
+Shell Beach,3,High,small_barnacles,80
+Shell Beach,3,High,large_barnacles,2
+Shell Beach,3,High,gooseneck_barnacles,0
+Shell Beach,3,High,anemone,0
+Shell Beach,4,Low,bare_rock,25
+Shell Beach,4,Low,algae,20
+Shell Beach,4,Low,mussels,0
+Shell Beach,4,Low,small_barnacles,2
+Shell Beach,4,Low,large_barnacles,0
+Shell Beach,4,Low,gooseneck_barnacles,0
+Shell Beach,4,Low,anemone,70
+Shell Beach,4,Mid,bare_rock,0
+Shell Beach,4,Mid,algae,3
+Shell Beach,4,Mid,mussels,95
+Shell Beach,4,Mid,small_barnacles,10
+Shell Beach,4,Mid,large_barnacles,2
+Shell Beach,4,Mid,gooseneck_barnacles,5
+Shell Beach,4,Mid,anemone,5
+Shell Beach,4,High,bare_rock,3
+Shell Beach,4,High,algae,15
+Shell Beach,4,High,mussels,0
+Shell Beach,4,High,small_barnacles,95
+Shell Beach,4,High,large_barnacles,2
+Shell Beach,4,High,gooseneck_barnacles,0
+Shell Beach,4,High,anemone,0
+Shell Beach,5,Low,bare_rock,15
+Shell Beach,5,Low,algae,30
+Shell Beach,5,Low,mussels,0
+Shell Beach,5,Low,small_barnacles,2
+Shell Beach,5,Low,large_barnacles,2
+Shell Beach,5,Low,gooseneck_barnacles,0
+Shell Beach,5,Low,anemone,70
+Shell Beach,5,Mid,bare_rock,0
+Shell Beach,5,Mid,algae,20
+Shell Beach,5,Mid,mussels,97
+Shell Beach,5,Mid,small_barnacles,5
+Shell Beach,5,Mid,large_barnacles,3
+Shell Beach,5,Mid,gooseneck_barnacles,3
+Shell Beach,5,Mid,anemone,3
+Shell Beach,5,High,bare_rock,30
+Shell Beach,5,High,algae,20
+Shell Beach,5,High,mussels,0
+Shell Beach,5,High,small_barnacles,50
+Shell Beach,5,High,large_barnacles,2
+Shell Beach,5,High,gooseneck_barnacles,0
+Shell Beach,5,High,anemone,0
+Shell Beach,6,Low,bare_rock,5
+Shell Beach,6,Low,algae,25
+Shell Beach,6,Low,mussels,1
+Shell Beach,6,Low,small_barnacles,0
+Shell Beach,6,Low,large_barnacles,0
+Shell Beach,6,Low,gooseneck_barnacles,0
+Shell Beach,6,Low,anemone,15
+Shell Beach,6,Mid,bare_rock,20
+Shell Beach,6,Mid,algae,40
+Shell Beach,6,Mid,mussels,50
+Shell Beach,6,Mid,small_barnacles,3
+Shell Beach,6,Mid,large_barnacles,5
+Shell Beach,6,Mid,gooseneck_barnacles,30
+Shell Beach,6,Mid,anemone,3
+Shell Beach,6,High,bare_rock,50
+Shell Beach,6,High,algae,5
+Shell Beach,6,High,mussels,0
+Shell Beach,6,High,small_barnacles,50
+Shell Beach,6,High,large_barnacles,2
+Shell Beach,6,High,gooseneck_barnacles,0
+Shell Beach,6,High,anemone,0
+Shell Beach,7,Low,bare_rock,5
+Shell Beach,7,Low,algae,30
+Shell Beach,7,Low,mussels,2
+Shell Beach,7,Low,small_barnacles,0
+Shell Beach,7,Low,large_barnacles,0
+Shell Beach,7,Low,gooseneck_barnacles,0
+Shell Beach,7,Low,anemone,5
+Shell Beach,7,Mid,bare_rock,0
+Shell Beach,7,Mid,algae,30
+Shell Beach,7,Mid,mussels,85
+Shell Beach,7,Mid,small_barnacles,5
+Shell Beach,7,Mid,large_barnacles,10
+Shell Beach,7,Mid,gooseneck_barnacles,15
+Shell Beach,7,Mid,anemone,5
+Shell Beach,7,High,bare_rock,15
+Shell Beach,7,High,algae,2
+Shell Beach,7,High,mussels,0
+Shell Beach,7,High,small_barnacles,80
+Shell Beach,7,High,large_barnacles,3
+Shell Beach,7,High,gooseneck_barnacles,0
+Shell Beach,7,High,anemone,0
+Shell Beach,8,Low,bare_rock,0
+Shell Beach,8,Low,algae,20
+Shell Beach,8,Low,mussels,5
+Shell Beach,8,Low,small_barnacles,2
+Shell Beach,8,Low,large_barnacles,3
+Shell Beach,8,Low,gooseneck_barnacles,3
+Shell Beach,8,Low,anemone,10
+Shell Beach,8,Mid,bare_rock,20
+Shell Beach,8,Mid,algae,35
+Shell Beach,8,Mid,mussels,40
+Shell Beach,8,Mid,small_barnacles,5
+Shell Beach,8,Mid,large_barnacles,2
+Shell Beach,8,Mid,gooseneck_barnacles,15
+Shell Beach,8,Mid,anemone,3
+Shell Beach,8,High,bare_rock,5
+Shell Beach,8,High,algae,0
+Shell Beach,8,High,mussels,0
+Shell Beach,8,High,small_barnacles,95
+Shell Beach,8,High,large_barnacles,0
+Shell Beach,8,High,gooseneck_barnacles,0
+Shell Beach,8,High,anemone,0
+Shell Beach,9,Low,bare_rock,5
+Shell Beach,9,Low,algae,80
+Shell Beach,9,Low,mussels,0
+Shell Beach,9,Low,small_barnacles,0
+Shell Beach,9,Low,large_barnacles,2
+Shell Beach,9,Low,gooseneck_barnacles,0
+Shell Beach,9,Low,anemone,15
+Shell Beach,9,Mid,bare_rock,0
+Shell Beach,9,Mid,algae,0
+Shell Beach,9,Mid,mussels,85
+Shell Beach,9,Mid,small_barnacles,90
+Shell Beach,9,Mid,large_barnacles,5
+Shell Beach,9,Mid,gooseneck_barnacles,15
+Shell Beach,9,Mid,anemone,5
+Shell Beach,9,High,bare_rock,10
+Shell Beach,9,High,algae,20
+Shell Beach,9,High,mussels,0
+Shell Beach,9,High,small_barnacles,80
+Shell Beach,9,High,large_barnacles,5
+Shell Beach,9,High,gooseneck_barnacles,0
+Shell Beach,9,High,anemone,0
+Shell Beach,10,Low,bare_rock,10
+Shell Beach,10,Low,algae,90
+Shell Beach,10,Low,mussels,0
+Shell Beach,10,Low,small_barnacles,0
+Shell Beach,10,Low,large_barnacles,5
+Shell Beach,10,Low,gooseneck_barnacles,0
+Shell Beach,10,Low,anemone,15
+Shell Beach,10,Mid,bare_rock,10
+Shell Beach,10,Mid,algae,15
+Shell Beach,10,Mid,mussels,60
+Shell Beach,10,Mid,small_barnacles,0
+Shell Beach,10,Mid,large_barnacles,5
+Shell Beach,10,Mid,gooseneck_barnacles,30
+Shell Beach,10,Mid,anemone,5
+Shell Beach,10,High,bare_rock,75
+Shell Beach,10,High,algae,5
+Shell Beach,10,High,mussels,0
+Shell Beach,10,High,small_barnacles,20
+Shell Beach,10,High,large_barnacles,1
+Shell Beach,10,High,gooseneck_barnacles,0
+Shell Beach,10,High,anemone,0
+Hazards,1,Low,bare_rock,5
+Hazards,1,Low,algae,70
+Hazards,1,Low,mussels,0
+Hazards,1,Low,small_barnacles,0
+Hazards,1,Low,large_barnacles,0
+Hazards,1,Low,gooseneck_barnacles,0
+Hazards,1,Low,anemone,2
+Hazards,1,Mid,bare_rock,5
+Hazards,1,Mid,algae,20
+Hazards,1,Mid,mussels,40
+Hazards,1,Mid,small_barnacles,0
+Hazards,1,Mid,large_barnacles,0
+Hazards,1,Mid,gooseneck_barnacles,40
+Hazards,1,Mid,anemone,5
+Hazards,1,High,bare_rock,13
+Hazards,1,High,algae,30
+Hazards,1,High,mussels,25
+Hazards,1,High,small_barnacles,2
+Hazards,1,High,large_barnacles,5
+Hazards,1,High,gooseneck_barnacles,30
+Hazards,1,High,anemone,3
+Hazards,2,Low,bare_rock,55
+Hazards,2,Low,algae,96
+Hazards,2,Low,mussels,0
+Hazards,2,Low,small_barnacles,0
+Hazards,2,Low,large_barnacles,0
+Hazards,2,Low,gooseneck_barnacles,0
+Hazards,2,Low,anemone,15
+Hazards,2,Mid,bare_rock,10
+Hazards,2,Mid,algae,30
+Hazards,2,Mid,mussels,40
+Hazards,2,Mid,small_barnacles,0
+Hazards,2,Mid,large_barnacles,0
+Hazards,2,Mid,gooseneck_barnacles,10
+Hazards,2,Mid,anemone,0
+Hazards,2,High,bare_rock,10
+Hazards,2,High,algae,90
+Hazards,2,High,mussels,10
+Hazards,2,High,small_barnacles,0
+Hazards,2,High,large_barnacles,3
+Hazards,2,High,gooseneck_barnacles,5
+Hazards,2,High,anemone,0
+Hazards,3,Low,bare_rock,3
+Hazards,3,Low,algae,93
+Hazards,3,Low,mussels,0
+Hazards,3,Low,small_barnacles,0
+Hazards,3,Low,large_barnacles,2
+Hazards,3,Low,gooseneck_barnacles,0
+Hazards,3,Low,anemone,20
+Hazards,3,Mid,bare_rock,15
+Hazards,3,Mid,algae,35
+Hazards,3,Mid,mussels,30
+Hazards,3,Mid,small_barnacles,0
+Hazards,3,Mid,large_barnacles,2
+Hazards,3,Mid,gooseneck_barnacles,15
+Hazards,3,Mid,anemone,10
+Hazards,3,High,bare_rock,0
+Hazards,3,High,algae,100
+Hazards,3,High,mussels,3
+Hazards,3,High,small_barnacles,0
+Hazards,3,High,large_barnacles,0
+Hazards,3,High,gooseneck_barnacles,0
+Hazards,3,High,anemone,0
+Hazards,4,Low,bare_rock,10
+Hazards,4,Low,algae,90
+Hazards,4,Low,mussels,0
+Hazards,4,Low,small_barnacles,0
+Hazards,4,Low,large_barnacles,0
+Hazards,4,Low,gooseneck_barnacles,0
+Hazards,4,Low,anemone,5
+Hazards,4,Mid,bare_rock,15
+Hazards,4,Mid,algae,30
+Hazards,4,Mid,mussels,70
+Hazards,4,Mid,small_barnacles,0
+Hazards,4,Mid,large_barnacles,2
+Hazards,4,Mid,gooseneck_barnacles,20
+Hazards,4,Mid,anemone,8
+Hazards,4,High,bare_rock,16
+Hazards,4,High,algae,90
+Hazards,4,High,mussels,0
+Hazards,4,High,small_barnacles,3
+Hazards,4,High,large_barnacles,0
+Hazards,4,High,gooseneck_barnacles,0
+Hazards,4,High,anemone,0
+Hazards,5,Low,bare_rock,10
+Hazards,5,Low,algae,80
+Hazards,5,Low,mussels,0
+Hazards,5,Low,small_barnacles,0
+Hazards,5,Low,large_barnacles,0
+Hazards,5,Low,gooseneck_barnacles,0
+Hazards,5,Low,anemone,20
+Hazards,5,Mid,bare_rock,20
+Hazards,5,Mid,algae,40
+Hazards,5,Mid,mussels,10
+Hazards,5,Mid,small_barnacles,2
+Hazards,5,Mid,large_barnacles,0
+Hazards,5,Mid,gooseneck_barnacles,5
+Hazards,5,Mid,anemone,3
+Hazards,5,High,bare_rock,15
+Hazards,5,High,algae,90
+Hazards,5,High,mussels,3
+Hazards,5,High,small_barnacles,2
+Hazards,5,High,large_barnacles,3
+Hazards,5,High,gooseneck_barnacles,0
+Hazards,5,High,anemone,2
+Hazards,6,Low,bare_rock,5
+Hazards,6,Low,algae,80
+Hazards,6,Low,mussels,0
+Hazards,6,Low,small_barnacles,0
+Hazards,6,Low,large_barnacles,0
+Hazards,6,Low,gooseneck_barnacles,0
+Hazards,6,Low,anemone,15
+Hazards,6,Mid,bare_rock,5
+Hazards,6,Mid,algae,60
+Hazards,6,Mid,mussels,30
+Hazards,6,Mid,small_barnacles,0
+Hazards,6,Mid,large_barnacles,0
+Hazards,6,Mid,gooseneck_barnacles,0
+Hazards,6,Mid,anemone,5
+Hazards,6,High,bare_rock,40
+Hazards,6,High,algae,40
+Hazards,6,High,mussels,5
+Hazards,6,High,small_barnacles,2
+Hazards,6,High,large_barnacles,15
+Hazards,6,High,gooseneck_barnacles,0
+Hazards,6,High,anemone,0
+Hazards,7,Low,bare_rock,5
+Hazards,7,Low,algae,65
+Hazards,7,Low,mussels,0
+Hazards,7,Low,small_barnacles,0
+Hazards,7,Low,large_barnacles,0
+Hazards,7,Low,gooseneck_barnacles,0
+Hazards,7,Low,anemone,30
+Hazards,7,Mid,bare_rock,15
+Hazards,7,Mid,algae,60
+Hazards,7,Mid,mussels,30
+Hazards,7,Mid,small_barnacles,2
+Hazards,7,Mid,large_barnacles,3
+Hazards,7,Mid,gooseneck_barnacles,15
+Hazards,7,Mid,anemone,10
+Hazards,7,High,bare_rock,90
+Hazards,7,High,algae,5
+Hazards,7,High,mussels,0
+Hazards,7,High,small_barnacles,2
+Hazards,7,High,large_barnacles,5
+Hazards,7,High,gooseneck_barnacles,0
+Hazards,7,High,anemone,0
+Hazards,8,Low,bare_rock,20
+Hazards,8,Low,algae,60
+Hazards,8,Low,mussels,0
+Hazards,8,Low,small_barnacles,0
+Hazards,8,Low,large_barnacles,0
+Hazards,8,Low,gooseneck_barnacles,0
+Hazards,8,Low,anemone,15
+Hazards,8,Mid,bare_rock,5
+Hazards,8,Mid,algae,50
+Hazards,8,Mid,mussels,5
+Hazards,8,Mid,small_barnacles,0
+Hazards,8,Mid,large_barnacles,0
+Hazards,8,Mid,gooseneck_barnacles,15
+Hazards,8,Mid,anemone,25
+Hazards,8,High,bare_rock,40
+Hazards,8,High,algae,40
+Hazards,8,High,mussels,0
+Hazards,8,High,small_barnacles,0
+Hazards,8,High,large_barnacles,20
+Hazards,8,High,gooseneck_barnacles,0
+Hazards,8,High,anemone,10
+Hazards,9,Low,bare_rock,15
+Hazards,9,Low,algae,70
+Hazards,9,Low,mussels,0
+Hazards,9,Low,small_barnacles,0
+Hazards,9,Low,large_barnacles,0
+Hazards,9,Low,gooseneck_barnacles,0
+Hazards,9,Low,anemone,25
+Hazards,9,Mid,bare_rock,10
+Hazards,9,Mid,algae,60
+Hazards,9,Mid,mussels,5
+Hazards,9,Mid,small_barnacles,0
+Hazards,9,Mid,large_barnacles,2
+Hazards,9,Mid,gooseneck_barnacles,10
+Hazards,9,Mid,anemone,3
+Hazards,9,High,bare_rock,50
+Hazards,9,High,algae,30
+Hazards,9,High,mussels,0
+Hazards,9,High,small_barnacles,1
+Hazards,9,High,large_barnacles,20
+Hazards,9,High,gooseneck_barnacles,0
+Hazards,9,High,anemone,0
+Hazards,10,Low,bare_rock,3
+Hazards,10,Low,algae,90
+Hazards,10,Low,mussels,1
+Hazards,10,Low,small_barnacles,1
+Hazards,10,Low,large_barnacles,0
+Hazards,10,Low,gooseneck_barnacles,0
+Hazards,10,Low,anemone,10
+Hazards,10,Mid,bare_rock,50
+Hazards,10,Mid,algae,40
+Hazards,10,Mid,mussels,5
+Hazards,10,Mid,small_barnacles,0
+Hazards,10,Mid,large_barnacles,10
+Hazards,10,Mid,gooseneck_barnacles,0
+Hazards,10,Mid,anemone,10
+Hazards,10,High,bare_rock,70
+Hazards,10,High,algae,10
+Hazards,10,High,mussels,0
+Hazards,10,High,small_barnacles,15
+Hazards,10,High,large_barnacles,5
+Hazards,10,High,gooseneck_barnacles,0
+Hazards,10,High,anemone,0
+Cambria,1,Low,bare_rock,5
+Cambria,1,Low,algae,95
+Cambria,1,Low,mussels,0
+Cambria,1,Low,small_barnacles,0
+Cambria,1,Low,large_barnacles,0
+Cambria,1,Low,gooseneck_barnacles,5
+Cambria,1,Low,anemone,0
+Cambria,1,Mid,bare_rock,30
+Cambria,1,Mid,algae,50
+Cambria,1,Mid,mussels,20
+Cambria,1,Mid,small_barnacles,0
+Cambria,1,Mid,large_barnacles,0
+Cambria,1,Mid,gooseneck_barnacles,5
+Cambria,1,Mid,anemone,0
+Cambria,1,High,bare_rock,90
+Cambria,1,High,algae,0
+Cambria,1,High,mussels,5
+Cambria,1,High,small_barnacles,0
+Cambria,1,High,large_barnacles,0
+Cambria,1,High,gooseneck_barnacles,5
+Cambria,1,High,anemone,0
+Cambria,2,Low,bare_rock,5
+Cambria,2,Low,algae,90
+Cambria,2,Low,mussels,1
+Cambria,2,Low,small_barnacles,0
+Cambria,2,Low,large_barnacles,0
+Cambria,2,Low,gooseneck_barnacles,0
+Cambria,2,Low,anemone,5
+Cambria,2,Mid,bare_rock,10
+Cambria,2,Mid,algae,25
+Cambria,2,Mid,mussels,30
+Cambria,2,Mid,small_barnacles,10
+Cambria,2,Mid,large_barnacles,1
+Cambria,2,Mid,gooseneck_barnacles,30
+Cambria,2,Mid,anemone,0
+Cambria,2,High,bare_rock,94
+Cambria,2,High,algae,5
+Cambria,2,High,mussels,1
+Cambria,2,High,small_barnacles,1
+Cambria,2,High,large_barnacles,0
+Cambria,2,High,gooseneck_barnacles,0
+Cambria,2,High,anemone,0
+Cambria,3,Low,bare_rock,4
+Cambria,3,Low,algae,95
+Cambria,3,Low,mussels,0
+Cambria,3,Low,small_barnacles,0
+Cambria,3,Low,large_barnacles,1
+Cambria,3,Low,gooseneck_barnacles,0
+Cambria,3,Low,anemone,0
+Cambria,3,Mid,bare_rock,60
+Cambria,3,Mid,algae,10
+Cambria,3,Mid,mussels,20
+Cambria,3,Mid,small_barnacles,5
+Cambria,3,Mid,large_barnacles,0
+Cambria,3,Mid,gooseneck_barnacles,10
+Cambria,3,Mid,anemone,0
+Cambria,3,High,bare_rock,95
+Cambria,3,High,algae,3
+Cambria,3,High,mussels,0
+Cambria,3,High,small_barnacles,0
+Cambria,3,High,large_barnacles,0
+Cambria,3,High,gooseneck_barnacles,2
+Cambria,3,High,anemone,0
+Cambria,4,Low,bare_rock,0
+Cambria,4,Low,algae,70
+Cambria,4,Low,mussels,1
+Cambria,4,Low,small_barnacles,0
+Cambria,4,Low,large_barnacles,0
+Cambria,4,Low,gooseneck_barnacles,0
+Cambria,4,Low,anemone,0
+Cambria,4,Mid,bare_rock,40
+Cambria,4,Mid,algae,10
+Cambria,4,Mid,mussels,30
+Cambria,4,Mid,small_barnacles,5
+Cambria,4,Mid,large_barnacles,0
+Cambria,4,Mid,gooseneck_barnacles,20
+Cambria,4,Mid,anemone,0
+Cambria,4,High,bare_rock,95
+Cambria,4,High,algae,4
+Cambria,4,High,mussels,0
+Cambria,4,High,small_barnacles,1
+Cambria,4,High,large_barnacles,1
+Cambria,4,High,gooseneck_barnacles,0
+Cambria,4,High,anemone,0
+Cambria,5,Low,bare_rock,0
+Cambria,5,Low,algae,80
+Cambria,5,Low,mussels,0
+Cambria,5,Low,small_barnacles,0
+Cambria,5,Low,large_barnacles,0
+Cambria,5,Low,gooseneck_barnacles,0
+Cambria,5,Low,anemone,0
+Cambria,5,Mid,bare_rock,55
+Cambria,5,Mid,algae,20
+Cambria,5,Mid,mussels,10
+Cambria,5,Mid,small_barnacles,3
+Cambria,5,Mid,large_barnacles,0
+Cambria,5,Mid,gooseneck_barnacles,15
+Cambria,5,Mid,anemone,0
+Cambria,5,High,bare_rock,94
+Cambria,5,High,algae,3
+Cambria,5,High,mussels,0
+Cambria,5,High,small_barnacles,1
+Cambria,5,High,large_barnacles,0
+Cambria,5,High,gooseneck_barnacles,0
+Cambria,5,High,anemone,0
+Cambria,6,Low,bare_rock,5
+Cambria,6,Low,algae,60
+Cambria,6,Low,mussels,0
+Cambria,6,Low,small_barnacles,0
+Cambria,6,Low,large_barnacles,0
+Cambria,6,Low,gooseneck_barnacles,0
+Cambria,6,Low,anemone,0
+Cambria,6,Mid,bare_rock,30
+Cambria,6,Mid,algae,60
+Cambria,6,Mid,mussels,5
+Cambria,6,Mid,small_barnacles,0
+Cambria,6,Mid,large_barnacles,1
+Cambria,6,Mid,gooseneck_barnacles,5
+Cambria,6,Mid,anemone,0
+Cambria,6,High,bare_rock,93
+Cambria,6,High,algae,2
+Cambria,6,High,mussels,0
+Cambria,6,High,small_barnacles,5
+Cambria,6,High,large_barnacles,0
+Cambria,6,High,gooseneck_barnacles,0
+Cambria,6,High,anemone,0
+Cambria,7,Low,bare_rock,0
+Cambria,7,Low,algae,100
+Cambria,7,Low,mussels,0
+Cambria,7,Low,small_barnacles,1
+Cambria,7,Low,large_barnacles,1
+Cambria,7,Low,gooseneck_barnacles,0
+Cambria,7,Low,anemone,0
+Cambria,7,Mid,bare_rock,30
+Cambria,7,Mid,algae,70
+Cambria,7,Mid,mussels,0
+Cambria,7,Mid,small_barnacles,1
+Cambria,7,Mid,large_barnacles,2
+Cambria,7,Mid,gooseneck_barnacles,5
+Cambria,7,Mid,anemone,0
+Cambria,7,High,bare_rock,5
+Cambria,7,High,algae,5
+Cambria,7,High,mussels,0
+Cambria,7,High,small_barnacles,10
+Cambria,7,High,large_barnacles,0
+Cambria,7,High,gooseneck_barnacles,0
+Cambria,7,High,anemone,0
+Cambria,8,Low,bare_rock,0
+Cambria,8,Low,algae,100
+Cambria,8,Low,mussels,0
+Cambria,8,Low,small_barnacles,0
+Cambria,8,Low,large_barnacles,0
+Cambria,8,Low,gooseneck_barnacles,0
+Cambria,8,Low,anemone,0
+Cambria,8,Mid,bare_rock,40
+Cambria,8,Mid,algae,40
+Cambria,8,Mid,mussels,2
+Cambria,8,Mid,small_barnacles,0
+Cambria,8,Mid,large_barnacles,2
+Cambria,8,Mid,gooseneck_barnacles,20
+Cambria,8,Mid,anemone,0
+Cambria,8,High,bare_rock,60
+Cambria,8,High,algae,15
+Cambria,8,High,mussels,0
+Cambria,8,High,small_barnacles,35
+Cambria,8,High,large_barnacles,0
+Cambria,8,High,gooseneck_barnacles,0
+Cambria,8,High,anemone,0
+Cambria,9,Low,bare_rock,0
+Cambria,9,Low,algae,85
+Cambria,9,Low,mussels,0
+Cambria,9,Low,small_barnacles,15
+Cambria,9,Low,large_barnacles,0
+Cambria,9,Low,gooseneck_barnacles,0
+Cambria,9,Low,anemone,0
+Cambria,9,Mid,bare_rock,20
+Cambria,9,Mid,algae,60
+Cambria,9,Mid,mussels,1
+Cambria,9,Mid,small_barnacles,2
+Cambria,9,Mid,large_barnacles,0
+Cambria,9,Mid,gooseneck_barnacles,0
+Cambria,9,Mid,anemone,2
+Cambria,9,High,bare_rock,75
+Cambria,9,High,algae,5
+Cambria,9,High,mussels,0
+Cambria,9,High,small_barnacles,20
+Cambria,9,High,large_barnacles,0
+Cambria,9,High,gooseneck_barnacles,0
+Cambria,9,High,anemone,0
+Cambria,10,Low,bare_rock,5
+Cambria,10,Low,algae,95
+Cambria,10,Low,mussels,0
+Cambria,10,Low,small_barnacles,0
+Cambria,10,Low,large_barnacles,0
+Cambria,10,Low,gooseneck_barnacles,0
+Cambria,10,Low,anemone,0
+Cambria,10,Mid,bare_rock,20
+Cambria,10,Mid,algae,80
+Cambria,10,Mid,mussels,1
+Cambria,10,Mid,small_barnacles,0
+Cambria,10,Mid,large_barnacles,0
+Cambria,10,Mid,gooseneck_barnacles,0
+Cambria,10,Mid,anemone,0
+Cambria,10,High,bare_rock,80
+Cambria,10,High,algae,10
+Cambria,10,High,mussels,0
+Cambria,10,High,small_barnacles,10
+Cambria,10,High,large_barnacles,0
+Cambria,10,High,gooseneck_barnacles,0
+Cambria,10,High,anemone,0
+Bodega,1,Low,bare_rock,0
+Bodega,1,Low,algae,100
+Bodega,1,Low,mussels,0
+Bodega,1,Low,small_barnacles,0
+Bodega,1,Low,large_barnacles,0
+Bodega,1,Low,gooseneck_barnacles,0
+Bodega,1,Low,anemone,0
+Bodega,1,Mid,bare_rock,0
+Bodega,1,Mid,algae,60
+Bodega,1,Mid,mussels,90
+Bodega,1,Mid,small_barnacles,25
+Bodega,1,Mid,large_barnacles,0
+Bodega,1,Mid,gooseneck_barnacles,5
+Bodega,1,Mid,anemone,0
+Bodega,1,High,bare_rock,85
+Bodega,1,High,algae,10
+Bodega,1,High,mussels,0
+Bodega,1,High,small_barnacles,5
+Bodega,1,High,large_barnacles,0
+Bodega,1,High,gooseneck_barnacles,0
+Bodega,1,High,anemone,0
+Bodega,2,Low,bare_rock,0
+Bodega,2,Low,algae,100
+Bodega,2,Low,mussels,0
+Bodega,2,Low,small_barnacles,0
+Bodega,2,Low,large_barnacles,0
+Bodega,2,Low,gooseneck_barnacles,0
+Bodega,2,Low,anemone,0
+Bodega,2,Mid,bare_rock,5
+Bodega,2,Mid,algae,30
+Bodega,2,Mid,mussels,65
+Bodega,2,Mid,small_barnacles,10
+Bodega,2,Mid,large_barnacles,1
+Bodega,2,Mid,gooseneck_barnacles,0
+Bodega,2,Mid,anemone,0
+Bodega,2,High,bare_rock,65
+Bodega,2,High,algae,10
+Bodega,2,High,mussels,0
+Bodega,2,High,small_barnacles,25
+Bodega,2,High,large_barnacles,0
+Bodega,2,High,gooseneck_barnacles,0
+Bodega,2,High,anemone,0
+Bodega,3,Low,bare_rock,0
+Bodega,3,Low,algae,100
+Bodega,3,Low,mussels,0
+Bodega,3,Low,small_barnacles,0
+Bodega,3,Low,large_barnacles,0
+Bodega,3,Low,gooseneck_barnacles,0
+Bodega,3,Low,anemone,0
+Bodega,3,Mid,bare_rock,0
+Bodega,3,Mid,algae,50
+Bodega,3,Mid,mussels,65
+Bodega,3,Mid,small_barnacles,0
+Bodega,3,Mid,large_barnacles,0
+Bodega,3,Mid,gooseneck_barnacles,0
+Bodega,3,Mid,anemone,0
+Bodega,3,High,bare_rock,98
+Bodega,3,High,algae,2
+Bodega,3,High,mussels,0
+Bodega,3,High,small_barnacles,2
+Bodega,3,High,large_barnacles,0
+Bodega,3,High,gooseneck_barnacles,0
+Bodega,3,High,anemone,0
+Bodega,4,Low,bare_rock,0
+Bodega,4,Low,algae,100
+Bodega,4,Low,mussels,0
+Bodega,4,Low,small_barnacles,0
+Bodega,4,Low,large_barnacles,0
+Bodega,4,Low,gooseneck_barnacles,0
+Bodega,4,Low,anemone,0
+Bodega,4,Mid,bare_rock,0
+Bodega,4,Mid,algae,75
+Bodega,4,Mid,mussels,90
+Bodega,4,Mid,small_barnacles,15
+Bodega,4,Mid,large_barnacles,2
+Bodega,4,Mid,gooseneck_barnacles,0
+Bodega,4,Mid,anemone,0
+Bodega,4,High,bare_rock,97
+Bodega,4,High,algae,2
+Bodega,4,High,mussels,0
+Bodega,4,High,small_barnacles,1
+Bodega,4,High,large_barnacles,0
+Bodega,4,High,gooseneck_barnacles,0
+Bodega,4,High,anemone,0
+Bodega,5,Low,bare_rock,0
+Bodega,5,Low,algae,100
+Bodega,5,Low,mussels,0
+Bodega,5,Low,small_barnacles,0
+Bodega,5,Low,large_barnacles,0
+Bodega,5,Low,gooseneck_barnacles,0
+Bodega,5,Low,anemone,0
+Bodega,5,Mid,bare_rock,0
+Bodega,5,Mid,algae,25
+Bodega,5,Mid,mussels,95
+Bodega,5,Mid,small_barnacles,20
+Bodega,5,Mid,large_barnacles,0
+Bodega,5,Mid,gooseneck_barnacles,15
+Bodega,5,Mid,anemone,0
+Bodega,5,High,bare_rock,99
+Bodega,5,High,algae,0
+Bodega,5,High,mussels,0
+Bodega,5,High,small_barnacles,1
+Bodega,5,High,large_barnacles,0
+Bodega,5,High,gooseneck_barnacles,0
+Bodega,5,High,anemone,0
+Bodega,6,Low,bare_rock,0
+Bodega,6,Low,algae,100
+Bodega,6,Low,mussels,0
+Bodega,6,Low,small_barnacles,0
+Bodega,6,Low,large_barnacles,0
+Bodega,6,Low,gooseneck_barnacles,0
+Bodega,6,Low,anemone,0
+Bodega,6,Mid,bare_rock,15
+Bodega,6,Mid,algae,50
+Bodega,6,Mid,mussels,80
+Bodega,6,Mid,small_barnacles,0
+Bodega,6,Mid,large_barnacles,0
+Bodega,6,Mid,gooseneck_barnacles,5
+Bodega,6,Mid,anemone,0
+Bodega,6,High,bare_rock,98
+Bodega,6,High,algae,0
+Bodega,6,High,mussels,0
+Bodega,6,High,small_barnacles,2
+Bodega,6,High,large_barnacles,0
+Bodega,6,High,gooseneck_barnacles,0
+Bodega,6,High,anemone,0
+Bodega,7,Low,bare_rock,0
+Bodega,7,Low,algae,100
+Bodega,7,Low,mussels,0
+Bodega,7,Low,small_barnacles,0
+Bodega,7,Low,large_barnacles,0
+Bodega,7,Low,gooseneck_barnacles,0
+Bodega,7,Low,anemone,0
+Bodega,7,Mid,bare_rock,5
+Bodega,7,Mid,algae,80
+Bodega,7,Mid,mussels,5
+Bodega,7,Mid,small_barnacles,0
+Bodega,7,Mid,large_barnacles,0
+Bodega,7,Mid,gooseneck_barnacles,0
+Bodega,7,Mid,anemone,0
+Bodega,7,High,bare_rock,98
+Bodega,7,High,algae,1
+Bodega,7,High,mussels,0
+Bodega,7,High,small_barnacles,1
+Bodega,7,High,large_barnacles,0
+Bodega,7,High,gooseneck_barnacles,0
+Bodega,7,High,anemone,0
+Bodega,8,Low,bare_rock,0
+Bodega,8,Low,algae,100
+Bodega,8,Low,mussels,0
+Bodega,8,Low,small_barnacles,0
+Bodega,8,Low,large_barnacles,0
+Bodega,8,Low,gooseneck_barnacles,0
+Bodega,8,Low,anemone,0
+Bodega,8,Mid,bare_rock,5
+Bodega,8,Mid,algae,90
+Bodega,8,Mid,mussels,17
+Bodega,8,Mid,small_barnacles,20
+Bodega,8,Mid,large_barnacles,0
+Bodega,8,Mid,gooseneck_barnacles,2
+Bodega,8,Mid,anemone,0
+Bodega,8,High,bare_rock,84
+Bodega,8,High,algae,9
+Bodega,8,High,mussels,0
+Bodega,8,High,small_barnacles,15
+Bodega,8,High,large_barnacles,0
+Bodega,8,High,gooseneck_barnacles,0
+Bodega,8,High,anemone,0
+Bodega,9,Low,bare_rock,15
+Bodega,9,Low,algae,85
+Bodega,9,Low,mussels,0
+Bodega,9,Low,small_barnacles,0
+Bodega,9,Low,large_barnacles,0
+Bodega,9,Low,gooseneck_barnacles,0
+Bodega,9,Low,anemone,0
+Bodega,9,Mid,bare_rock,10
+Bodega,9,Mid,algae,95
+Bodega,9,Mid,mussels,2
+Bodega,9,Mid,small_barnacles,0
+Bodega,9,Mid,large_barnacles,0
+Bodega,9,Mid,gooseneck_barnacles,0
+Bodega,9,Mid,anemone,0
+Bodega,9,High,bare_rock,98
+Bodega,9,High,algae,0
+Bodega,9,High,mussels,0
+Bodega,9,High,small_barnacles,2
+Bodega,9,High,large_barnacles,0
+Bodega,9,High,gooseneck_barnacles,0
+Bodega,9,High,anemone,0
+Bodega,10,Low,bare_rock,0
+Bodega,10,Low,algae,100
+Bodega,10,Low,mussels,0
+Bodega,10,Low,small_barnacles,0
+Bodega,10,Low,large_barnacles,0
+Bodega,10,Low,gooseneck_barnacles,0
+Bodega,10,Low,anemone,0
+Bodega,10,Mid,bare_rock,10
+Bodega,10,Mid,algae,70
+Bodega,10,Mid,mussels,50
+Bodega,10,Mid,small_barnacles,2
+Bodega,10,Mid,large_barnacles,0
+Bodega,10,Mid,gooseneck_barnacles,0
+Bodega,10,Mid,anemone,0
+Bodega,10,High,bare_rock,94
+Bodega,10,High,algae,5
+Bodega,10,High,mussels,0
+Bodega,10,High,small_barnacles,1
+Bodega,10,High,large_barnacles,0
+Bodega,10,High,gooseneck_barnacles,0
+Bodega,10,High,anemone,0
+Point St. George,1,Low,bare_rock,10
+Point St. George,1,Low,algae,85
+Point St. George,1,Low,mussels,0
+Point St. George,1,Low,small_barnacles,5
+Point St. George,1,Low,large_barnacles,0
+Point St. George,1,Low,gooseneck_barnacles,0
+Point St. George,1,Low,anemone,0
+Point St. George,1,Mid,bare_rock,5
+Point St. George,1,Mid,algae,55
+Point St. George,1,Mid,mussels,50
+Point St. George,1,Mid,small_barnacles,30
+Point St. George,1,Mid,large_barnacles,0
+Point St. George,1,Mid,gooseneck_barnacles,20
+Point St. George,1,Mid,anemone,0
+Point St. George,1,High,bare_rock,10
+Point St. George,1,High,algae,80
+Point St. George,1,High,mussels,1
+Point St. George,1,High,small_barnacles,5
+Point St. George,1,High,large_barnacles,2
+Point St. George,1,High,gooseneck_barnacles,5
+Point St. George,1,High,anemone,0
+Point St. George,2,Low,bare_rock,5
+Point St. George,2,Low,algae,70
+Point St. George,2,Low,mussels,0
+Point St. George,2,Low,small_barnacles,15
+Point St. George,2,Low,large_barnacles,0
+Point St. George,2,Low,gooseneck_barnacles,0
+Point St. George,2,Low,anemone,10
+Point St. George,2,Mid,bare_rock,0
+Point St. George,2,Mid,algae,4
+Point St. George,2,Mid,mussels,100
+Point St. George,2,Mid,small_barnacles,50
+Point St. George,2,Mid,large_barnacles,0
+Point St. George,2,Mid,gooseneck_barnacles,1
+Point St. George,2,Mid,anemone,0
+Point St. George,2,High,bare_rock,35
+Point St. George,2,High,algae,55
+Point St. George,2,High,mussels,0
+Point St. George,2,High,small_barnacles,10
+Point St. George,2,High,large_barnacles,0
+Point St. George,2,High,gooseneck_barnacles,0
+Point St. George,2,High,anemone,0
+Point St. George,3,Low,bare_rock,10
+Point St. George,3,Low,algae,60
+Point St. George,3,Low,mussels,0
+Point St. George,3,Low,small_barnacles,30
+Point St. George,3,Low,large_barnacles,0
+Point St. George,3,Low,gooseneck_barnacles,0
+Point St. George,3,Low,anemone,5
+Point St. George,3,Mid,bare_rock,0
+Point St. George,3,Mid,algae,25
+Point St. George,3,Mid,mussels,100
+Point St. George,3,Mid,small_barnacles,15
+Point St. George,3,Mid,large_barnacles,0
+Point St. George,3,Mid,gooseneck_barnacles,1
+Point St. George,3,Mid,anemone,0
+Point St. George,3,High,bare_rock,30
+Point St. George,3,High,algae,10
+Point St. George,3,High,mussels,0
+Point St. George,3,High,small_barnacles,60
+Point St. George,3,High,large_barnacles,0
+Point St. George,3,High,gooseneck_barnacles,0
+Point St. George,3,High,anemone,0
+Point St. George,4,Low,bare_rock,0
+Point St. George,4,Low,algae,100
+Point St. George,4,Low,mussels,0
+Point St. George,4,Low,small_barnacles,5
+Point St. George,4,Low,large_barnacles,0
+Point St. George,4,Low,gooseneck_barnacles,0
+Point St. George,4,Low,anemone,0
+Point St. George,4,Mid,bare_rock,10
+Point St. George,4,Mid,algae,20
+Point St. George,4,Mid,mussels,75
+Point St. George,4,Mid,small_barnacles,15
+Point St. George,4,Mid,large_barnacles,0
+Point St. George,4,Mid,gooseneck_barnacles,5
+Point St. George,4,Mid,anemone,0
+Point St. George,4,High,bare_rock,25
+Point St. George,4,High,algae,60
+Point St. George,4,High,mussels,10
+Point St. George,4,High,small_barnacles,15
+Point St. George,4,High,large_barnacles,0
+Point St. George,4,High,gooseneck_barnacles,0
+Point St. George,4,High,anemone,0
+Point St. George,5,Low,bare_rock,0
+Point St. George,5,Low,algae,90
+Point St. George,5,Low,mussels,0
+Point St. George,5,Low,small_barnacles,10
+Point St. George,5,Low,large_barnacles,0
+Point St. George,5,Low,gooseneck_barnacles,0
+Point St. George,5,Low,anemone,5
+Point St. George,5,Mid,bare_rock,0
+Point St. George,5,Mid,algae,20
+Point St. George,5,Mid,mussels,100
+Point St. George,5,Mid,small_barnacles,5
+Point St. George,5,Mid,large_barnacles,0
+Point St. George,5,Mid,gooseneck_barnacles,1
+Point St. George,5,Mid,anemone,0
+Point St. George,5,High,bare_rock,15
+Point St. George,5,High,algae,15
+Point St. George,5,High,mussels,0
+Point St. George,5,High,small_barnacles,60
+Point St. George,5,High,large_barnacles,0
+Point St. George,5,High,gooseneck_barnacles,0
+Point St. George,5,High,anemone,0
+Point St. George,6,Low,bare_rock,0
+Point St. George,6,Low,algae,95
+Point St. George,6,Low,mussels,0
+Point St. George,6,Low,small_barnacles,5
+Point St. George,6,Low,large_barnacles,0
+Point St. George,6,Low,gooseneck_barnacles,0
+Point St. George,6,Low,anemone,0
+Point St. George,6,Mid,bare_rock,0
+Point St. George,6,Mid,algae,80
+Point St. George,6,Mid,mussels,100
+Point St. George,6,Mid,small_barnacles,25
+Point St. George,6,Mid,large_barnacles,0
+Point St. George,6,Mid,gooseneck_barnacles,2
+Point St. George,6,Mid,anemone,0
+Point St. George,6,High,bare_rock,20
+Point St. George,6,High,algae,50
+Point St. George,6,High,mussels,20
+Point St. George,6,High,small_barnacles,30
+Point St. George,6,High,large_barnacles,0
+Point St. George,6,High,gooseneck_barnacles,5
+Point St. George,6,High,anemone,0
+Point St. George,7,Low,bare_rock,0
+Point St. George,7,Low,algae,100
+Point St. George,7,Low,mussels,0
+Point St. George,7,Low,small_barnacles,0
+Point St. George,7,Low,large_barnacles,0
+Point St. George,7,Low,gooseneck_barnacles,0
+Point St. George,7,Low,anemone,0
+Point St. George,7,Mid,bare_rock,0
+Point St. George,7,Mid,algae,95
+Point St. George,7,Mid,mussels,100
+Point St. George,7,Mid,small_barnacles,5
+Point St. George,7,Mid,large_barnacles,0
+Point St. George,7,Mid,gooseneck_barnacles,5
+Point St. George,7,Mid,anemone,0
+Point St. George,7,High,bare_rock,30
+Point St. George,7,High,algae,60
+Point St. George,7,High,mussels,3
+Point St. George,7,High,small_barnacles,5
+Point St. George,7,High,large_barnacles,0
+Point St. George,7,High,gooseneck_barnacles,0
+Point St. George,7,High,anemone,0
+Point St. George,8,Low,bare_rock,5
+Point St. George,8,Low,algae,90
+Point St. George,8,Low,mussels,0
+Point St. George,8,Low,small_barnacles,5
+Point St. George,8,Low,large_barnacles,0
+Point St. George,8,Low,gooseneck_barnacles,0
+Point St. George,8,Low,anemone,0
+Point St. George,8,Mid,bare_rock,5
+Point St. George,8,Mid,algae,80
+Point St. George,8,Mid,mussels,45
+Point St. George,8,Mid,small_barnacles,15
+Point St. George,8,Mid,large_barnacles,5
+Point St. George,8,Mid,gooseneck_barnacles,2
+Point St. George,8,Mid,anemone,3
+Point St. George,8,High,bare_rock,0
+Point St. George,8,High,algae,20
+Point St. George,8,High,mussels,20
+Point St. George,8,High,small_barnacles,60
+Point St. George,8,High,large_barnacles,1
+Point St. George,8,High,gooseneck_barnacles,4
+Point St. George,8,High,anemone,0
+Point St. George,9,Low,bare_rock,0
+Point St. George,9,Low,algae,95
+Point St. George,9,Low,mussels,0
+Point St. George,9,Low,small_barnacles,5
+Point St. George,9,Low,large_barnacles,0
+Point St. George,9,Low,gooseneck_barnacles,0
+Point St. George,9,Low,anemone,0
+Point St. George,9,Mid,bare_rock,0
+Point St. George,9,Mid,algae,60
+Point St. George,9,Mid,mussels,95
+Point St. George,9,Mid,small_barnacles,50
+Point St. George,9,Mid,large_barnacles,1
+Point St. George,9,Mid,gooseneck_barnacles,1
+Point St. George,9,Mid,anemone,0
+Point St. George,9,High,bare_rock,10
+Point St. George,9,High,algae,80
+Point St. George,9,High,mussels,5
+Point St. George,9,High,small_barnacles,35
+Point St. George,9,High,large_barnacles,1
+Point St. George,9,High,gooseneck_barnacles,0
+Point St. George,9,High,anemone,0
+Point St. George,10,Low,bare_rock,40
+Point St. George,10,Low,algae,50
+Point St. George,10,Low,mussels,0
+Point St. George,10,Low,small_barnacles,10
+Point St. George,10,Low,large_barnacles,0
+Point St. George,10,Low,gooseneck_barnacles,0
+Point St. George,10,Low,anemone,0
+Point St. George,10,Mid,bare_rock,10
+Point St. George,10,Mid,algae,70
+Point St. George,10,Mid,mussels,0
+Point St. George,10,Mid,small_barnacles,30
+Point St. George,10,Mid,large_barnacles,0
+Point St. George,10,Mid,gooseneck_barnacles,0
+Point St. George,10,Mid,anemone,0
+Point St. George,10,High,bare_rock,10
+Point St. George,10,High,algae,60
+Point St. George,10,High,mussels,5
+Point St. George,10,High,small_barnacles,30
+Point St. George,10,High,large_barnacles,0
+Point St. George,10,High,gooseneck_barnacles,0
+Point St. George,10,High,anemone,0
+Cape Arago,1,Low,bare_rock,40
+Cape Arago,1,Low,algae,70
+Cape Arago,1,Low,mussels,0
+Cape Arago,1,Low,small_barnacles,1
+Cape Arago,1,Low,large_barnacles,0
+Cape Arago,1,Low,gooseneck_barnacles,0
+Cape Arago,1,Low,anemone,4
+Cape Arago,1,Mid,bare_rock,35
+Cape Arago,1,Mid,algae,5
+Cape Arago,1,Mid,mussels,30
+Cape Arago,1,Mid,small_barnacles,25
+Cape Arago,1,Mid,large_barnacles,0
+Cape Arago,1,Mid,gooseneck_barnacles,10
+Cape Arago,1,Mid,anemone,0
+Cape Arago,1,High,bare_rock,73
+Cape Arago,1,High,algae,2
+Cape Arago,1,High,mussels,0
+Cape Arago,1,High,small_barnacles,25
+Cape Arago,1,High,large_barnacles,0
+Cape Arago,1,High,gooseneck_barnacles,0
+Cape Arago,1,High,anemone,0
+Cape Arago,2,Low,bare_rock,5
+Cape Arago,2,Low,algae,70
+Cape Arago,2,Low,mussels,0
+Cape Arago,2,Low,small_barnacles,25
+Cape Arago,2,Low,large_barnacles,0
+Cape Arago,2,Low,gooseneck_barnacles,0
+Cape Arago,2,Low,anemone,10
+Cape Arago,2,Mid,bare_rock,30
+Cape Arago,2,Mid,algae,5
+Cape Arago,2,Mid,mussels,10
+Cape Arago,2,Mid,small_barnacles,50
+Cape Arago,2,Mid,large_barnacles,0
+Cape Arago,2,Mid,gooseneck_barnacles,0
+Cape Arago,2,Mid,anemone,5
+Cape Arago,2,High,bare_rock,20
+Cape Arago,2,High,algae,2
+Cape Arago,2,High,mussels,0
+Cape Arago,2,High,small_barnacles,80
+Cape Arago,2,High,large_barnacles,0
+Cape Arago,2,High,gooseneck_barnacles,0
+Cape Arago,2,High,anemone,0
+Cape Arago,3,Low,bare_rock,60
+Cape Arago,3,Low,algae,10
+Cape Arago,3,Low,mussels,0
+Cape Arago,3,Low,small_barnacles,30
+Cape Arago,3,Low,large_barnacles,0
+Cape Arago,3,Low,gooseneck_barnacles,0
+Cape Arago,3,Low,anemone,0
+Cape Arago,3,Mid,bare_rock,25
+Cape Arago,3,Mid,algae,0
+Cape Arago,3,Mid,mussels,25
+Cape Arago,3,Mid,small_barnacles,50
+Cape Arago,3,Mid,large_barnacles,0
+Cape Arago,3,Mid,gooseneck_barnacles,10
+Cape Arago,3,Mid,anemone,0
+Cape Arago,3,High,bare_rock,75
+Cape Arago,3,High,algae,0
+Cape Arago,3,High,mussels,0
+Cape Arago,3,High,small_barnacles,25
+Cape Arago,3,High,large_barnacles,0
+Cape Arago,3,High,gooseneck_barnacles,0
+Cape Arago,3,High,anemone,0
+Cape Arago,4,High,bare_rock,20
+Cape Arago,4,High,algae,80
+Cape Arago,4,High,mussels,0
+Cape Arago,4,High,small_barnacles,5
+Cape Arago,4,High,large_barnacles,0
+Cape Arago,4,High,gooseneck_barnacles,0
+Cape Arago,4,High,anemone,0
+Cape Arago,4,Low,bare_rock,0
+Cape Arago,4,Low,algae,10
+Cape Arago,4,Low,mussels,75
+Cape Arago,4,Low,small_barnacles,0
+Cape Arago,4,Low,large_barnacles,0
+Cape Arago,4,Low,gooseneck_barnacles,3
+Cape Arago,4,Low,anemone,5
+Cape Arago,4,Mid,bare_rock,35
+Cape Arago,4,Mid,algae,15
+Cape Arago,4,Mid,mussels,0
+Cape Arago,4,Mid,small_barnacles,50
+Cape Arago,4,Mid,large_barnacles,0
+Cape Arago,4,Mid,gooseneck_barnacles,0
+Cape Arago,4,Mid,anemone,0
+Cape Arago,5,Low,bare_rock,20
+Cape Arago,5,Low,algae,75
+Cape Arago,5,Low,mussels,0
+Cape Arago,5,Low,small_barnacles,0
+Cape Arago,5,Low,large_barnacles,0
+Cape Arago,5,Low,gooseneck_barnacles,0
+Cape Arago,5,Low,anemone,5
+Cape Arago,5,Mid,bare_rock,40
+Cape Arago,5,Mid,algae,10
+Cape Arago,5,Mid,mussels,15
+Cape Arago,5,Mid,small_barnacles,35
+Cape Arago,5,Mid,large_barnacles,0
+Cape Arago,5,Mid,gooseneck_barnacles,0
+Cape Arago,5,Mid,anemone,0
+Cape Arago,5,High,bare_rock,50
+Cape Arago,5,High,algae,10
+Cape Arago,5,High,mussels,0
+Cape Arago,5,High,small_barnacles,40
+Cape Arago,5,High,large_barnacles,0
+Cape Arago,5,High,gooseneck_barnacles,0
+Cape Arago,5,High,anemone,0
+Cape Arago,6,Low,bare_rock,35
+Cape Arago,6,Low,algae,60
+Cape Arago,6,Low,mussels,0
+Cape Arago,6,Low,small_barnacles,0
+Cape Arago,6,Low,large_barnacles,0
+Cape Arago,6,Low,gooseneck_barnacles,0
+Cape Arago,6,Low,anemone,5
+Cape Arago,6,Mid,bare_rock,5
+Cape Arago,6,Mid,algae,10
+Cape Arago,6,Mid,mussels,10
+Cape Arago,6,Mid,small_barnacles,80
+Cape Arago,6,Mid,large_barnacles,0
+Cape Arago,6,Mid,gooseneck_barnacles,0
+Cape Arago,6,Mid,anemone,5
+Cape Arago,6,High,bare_rock,20
+Cape Arago,6,High,algae,15
+Cape Arago,6,High,mussels,5
+Cape Arago,6,High,small_barnacles,60
+Cape Arago,6,High,large_barnacles,0
+Cape Arago,6,High,gooseneck_barnacles,0
+Cape Arago,6,High,anemone,0
+Cape Arago,7,Low,bare_rock,20
+Cape Arago,7,Low,algae,80
+Cape Arago,7,Low,mussels,0
+Cape Arago,7,Low,small_barnacles,0
+Cape Arago,7,Low,large_barnacles,0
+Cape Arago,7,Low,gooseneck_barnacles,0
+Cape Arago,7,Low,anemone,0
+Cape Arago,7,Mid,bare_rock,20
+Cape Arago,7,Mid,algae,15
+Cape Arago,7,Mid,mussels,5
+Cape Arago,7,Mid,small_barnacles,60
+Cape Arago,7,Mid,large_barnacles,0
+Cape Arago,7,Mid,gooseneck_barnacles,0
+Cape Arago,7,Mid,anemone,0
+Cape Arago,7,High,bare_rock,40
+Cape Arago,7,High,algae,8
+Cape Arago,7,High,mussels,2
+Cape Arago,7,High,small_barnacles,50
+Cape Arago,7,High,large_barnacles,0
+Cape Arago,7,High,gooseneck_barnacles,0
+Cape Arago,7,High,anemone,0
+Cape Arago,8,Low,bare_rock,30
+Cape Arago,8,Low,algae,70
+Cape Arago,8,Low,mussels,0
+Cape Arago,8,Low,small_barnacles,0
+Cape Arago,8,Low,large_barnacles,0
+Cape Arago,8,Low,gooseneck_barnacles,0
+Cape Arago,8,Low,anemone,0
+Cape Arago,8,Mid,bare_rock,5
+Cape Arago,8,Mid,algae,10
+Cape Arago,8,Mid,mussels,40
+Cape Arago,8,Mid,small_barnacles,40
+Cape Arago,8,Mid,large_barnacles,0
+Cape Arago,8,Mid,gooseneck_barnacles,10
+Cape Arago,8,Mid,anemone,0
+Cape Arago,8,High,bare_rock,20
+Cape Arago,8,High,algae,10
+Cape Arago,8,High,mussels,5
+Cape Arago,8,High,small_barnacles,65
+Cape Arago,8,High,large_barnacles,0
+Cape Arago,8,High,gooseneck_barnacles,0
+Cape Arago,8,High,anemone,0
+Cape Arago,9,Low,bare_rock,40
+Cape Arago,9,Low,algae,60
+Cape Arago,9,Low,mussels,0
+Cape Arago,9,Low,small_barnacles,0
+Cape Arago,9,Low,large_barnacles,0
+Cape Arago,9,Low,gooseneck_barnacles,0
+Cape Arago,9,Low,anemone,0
+Cape Arago,9,Mid,bare_rock,30
+Cape Arago,9,Mid,algae,10
+Cape Arago,9,Mid,mussels,10
+Cape Arago,9,Mid,small_barnacles,45
+Cape Arago,9,Mid,large_barnacles,0
+Cape Arago,9,Mid,gooseneck_barnacles,5
+Cape Arago,9,Mid,anemone,5
+Cape Arago,9,High,bare_rock,70
+Cape Arago,9,High,algae,15
+Cape Arago,9,High,mussels,0
+Cape Arago,9,High,small_barnacles,15
+Cape Arago,9,High,large_barnacles,0
+Cape Arago,9,High,gooseneck_barnacles,0
+Cape Arago,9,High,anemone,0
+Cape Arago,10,Low,bare_rock,45
+Cape Arago,10,Low,algae,40
+Cape Arago,10,Low,mussels,0
+Cape Arago,10,Low,small_barnacles,5
+Cape Arago,10,Low,large_barnacles,0
+Cape Arago,10,Low,gooseneck_barnacles,0
+Cape Arago,10,Low,anemone,10
+Cape Arago,10,Mid,bare_rock,30
+Cape Arago,10,Mid,algae,5
+Cape Arago,10,Mid,mussels,20
+Cape Arago,10,Mid,small_barnacles,35
+Cape Arago,10,Mid,large_barnacles,0
+Cape Arago,10,Mid,gooseneck_barnacles,10
+Cape Arago,10,Mid,anemone,0
+Cape Arago,10,High,bare_rock,40
+Cape Arago,10,High,algae,10
+Cape Arago,10,High,mussels,1
+Cape Arago,10,High,small_barnacles,50
+Cape Arago,10,High,large_barnacles,0
+Cape Arago,10,High,gooseneck_barnacles,0
+Cape Arago,10,High,anemone,0
+Fogarty Creek,1,Low,bare_rock,0
+Fogarty Creek,1,Low,algae,90
+Fogarty Creek,1,Low,mussels,0
+Fogarty Creek,1,Low,small_barnacles,0
+Fogarty Creek,1,Low,large_barnacles,0
+Fogarty Creek,1,Low,gooseneck_barnacles,0
+Fogarty Creek,1,Low,anemone,15
+Fogarty Creek,1,Mid,bare_rock,8
+Fogarty Creek,1,Mid,algae,3
+Fogarty Creek,1,Mid,mussels,95
+Fogarty Creek,1,Mid,small_barnacles,100
+Fogarty Creek,1,Mid,large_barnacles,3
+Fogarty Creek,1,Mid,gooseneck_barnacles,5
+Fogarty Creek,1,Mid,anemone,5
+Fogarty Creek,1,High,bare_rock,60
+Fogarty Creek,1,High,algae,10
+Fogarty Creek,1,High,mussels,0
+Fogarty Creek,1,High,small_barnacles,30
+Fogarty Creek,1,High,large_barnacles,0
+Fogarty Creek,1,High,gooseneck_barnacles,0
+Fogarty Creek,1,High,anemone,0
+Fogarty Creek,2,Low,bare_rock,0
+Fogarty Creek,2,Low,algae,95
+Fogarty Creek,2,Low,mussels,0
+Fogarty Creek,2,Low,small_barnacles,0
+Fogarty Creek,2,Low,large_barnacles,0
+Fogarty Creek,2,Low,gooseneck_barnacles,0
+Fogarty Creek,2,Low,anemone,5
+Fogarty Creek,2,Mid,bare_rock,0
+Fogarty Creek,2,Mid,algae,0
+Fogarty Creek,2,Mid,mussels,97
+Fogarty Creek,2,Mid,small_barnacles,80
+Fogarty Creek,2,Mid,large_barnacles,2
+Fogarty Creek,2,Mid,gooseneck_barnacles,3
+Fogarty Creek,2,Mid,anemone,0
+Fogarty Creek,2,High,bare_rock,20
+Fogarty Creek,2,High,algae,35
+Fogarty Creek,2,High,mussels,0
+Fogarty Creek,2,High,small_barnacles,45
+Fogarty Creek,2,High,large_barnacles,0
+Fogarty Creek,2,High,gooseneck_barnacles,0
+Fogarty Creek,2,High,anemone,0
+Fogarty Creek,3,Low,bare_rock,0
+Fogarty Creek,3,Low,algae,70
+Fogarty Creek,3,Low,mussels,0
+Fogarty Creek,3,Low,small_barnacles,0
+Fogarty Creek,3,Low,large_barnacles,0
+Fogarty Creek,3,Low,gooseneck_barnacles,0
+Fogarty Creek,3,Low,anemone,40
+Fogarty Creek,3,Mid,bare_rock,5
+Fogarty Creek,3,Mid,algae,1
+Fogarty Creek,3,Mid,mussels,90
+Fogarty Creek,3,Mid,small_barnacles,60
+Fogarty Creek,3,Mid,large_barnacles,1
+Fogarty Creek,3,Mid,gooseneck_barnacles,10
+Fogarty Creek,3,Mid,anemone,0
+Fogarty Creek,3,High,bare_rock,5
+Fogarty Creek,3,High,algae,80
+Fogarty Creek,3,High,mussels,0
+Fogarty Creek,3,High,small_barnacles,15
+Fogarty Creek,3,High,large_barnacles,0
+Fogarty Creek,3,High,gooseneck_barnacles,0
+Fogarty Creek,3,High,anemone,0
+Fogarty Creek,4,Low,bare_rock,0
+Fogarty Creek,4,Low,algae,100
+Fogarty Creek,4,Low,mussels,0
+Fogarty Creek,4,Low,small_barnacles,0
+Fogarty Creek,4,Low,large_barnacles,0
+Fogarty Creek,4,Low,gooseneck_barnacles,0
+Fogarty Creek,4,Low,anemone,0
+Fogarty Creek,4,Mid,bare_rock,0
+Fogarty Creek,4,Mid,algae,1
+Fogarty Creek,4,Mid,mussels,90
+Fogarty Creek,4,Mid,small_barnacles,55
+Fogarty Creek,4,Mid,large_barnacles,1
+Fogarty Creek,4,Mid,gooseneck_barnacles,10
+Fogarty Creek,4,Mid,anemone,0
+Fogarty Creek,4,High,bare_rock,15
+Fogarty Creek,4,High,algae,70
+Fogarty Creek,4,High,mussels,0
+Fogarty Creek,4,High,small_barnacles,15
+Fogarty Creek,4,High,large_barnacles,0
+Fogarty Creek,4,High,gooseneck_barnacles,0
+Fogarty Creek,4,High,anemone,0
+Fogarty Creek,5,Low,bare_rock,0
+Fogarty Creek,5,Low,algae,100
+Fogarty Creek,5,Low,mussels,0
+Fogarty Creek,5,Low,small_barnacles,0
+Fogarty Creek,5,Low,large_barnacles,0
+Fogarty Creek,5,Low,gooseneck_barnacles,0
+Fogarty Creek,5,Low,anemone,0
+Fogarty Creek,5,Mid,bare_rock,0
+Fogarty Creek,5,Mid,algae,0
+Fogarty Creek,5,Mid,mussels,75
+Fogarty Creek,5,Mid,small_barnacles,30
+Fogarty Creek,5,Mid,large_barnacles,0
+Fogarty Creek,5,Mid,gooseneck_barnacles,25
+Fogarty Creek,5,Mid,anemone,0
+Fogarty Creek,5,High,bare_rock,0
+Fogarty Creek,5,High,algae,20
+Fogarty Creek,5,High,mussels,0
+Fogarty Creek,5,High,small_barnacles,25
+Fogarty Creek,5,High,large_barnacles,0
+Fogarty Creek,5,High,gooseneck_barnacles,0
+Fogarty Creek,5,High,anemone,0
+Fogarty Creek,6,Low,bare_rock,0
+Fogarty Creek,6,Low,algae,100
+Fogarty Creek,6,Low,mussels,0
+Fogarty Creek,6,Low,small_barnacles,0
+Fogarty Creek,6,Low,large_barnacles,0
+Fogarty Creek,6,Low,gooseneck_barnacles,0
+Fogarty Creek,6,Low,anemone,0
+Fogarty Creek,6,Mid,bare_rock,10
+Fogarty Creek,6,Mid,algae,5
+Fogarty Creek,6,Mid,mussels,65
+Fogarty Creek,6,Mid,small_barnacles,40
+Fogarty Creek,6,Mid,large_barnacles,2
+Fogarty Creek,6,Mid,gooseneck_barnacles,20
+Fogarty Creek,6,Mid,anemone,1
+Fogarty Creek,6,High,bare_rock,45
+Fogarty Creek,6,High,algae,5
+Fogarty Creek,6,High,mussels,0
+Fogarty Creek,6,High,small_barnacles,40
+Fogarty Creek,6,High,large_barnacles,0
+Fogarty Creek,6,High,gooseneck_barnacles,0
+Fogarty Creek,6,High,anemone,0
+Fogarty Creek,7,Low,bare_rock,0
+Fogarty Creek,7,Low,algae,100
+Fogarty Creek,7,Low,mussels,0
+Fogarty Creek,7,Low,small_barnacles,0
+Fogarty Creek,7,Low,large_barnacles,0
+Fogarty Creek,7,Low,gooseneck_barnacles,0
+Fogarty Creek,7,Low,anemone,0
+Fogarty Creek,7,Mid,bare_rock,0
+Fogarty Creek,7,Mid,algae,2
+Fogarty Creek,7,Mid,mussels,100
+Fogarty Creek,7,Mid,small_barnacles,60
+Fogarty Creek,7,Mid,large_barnacles,3
+Fogarty Creek,7,Mid,gooseneck_barnacles,5
+Fogarty Creek,7,Mid,anemone,0
+Fogarty Creek,7,High,bare_rock,15
+Fogarty Creek,7,High,algae,40
+Fogarty Creek,7,High,mussels,1
+Fogarty Creek,7,High,small_barnacles,45
+Fogarty Creek,7,High,large_barnacles,0
+Fogarty Creek,7,High,gooseneck_barnacles,0
+Fogarty Creek,7,High,anemone,0
+Fogarty Creek,8,Low,bare_rock,0
+Fogarty Creek,8,Low,algae,100
+Fogarty Creek,8,Low,mussels,0
+Fogarty Creek,8,Low,small_barnacles,6
+Fogarty Creek,8,Low,large_barnacles,0
+Fogarty Creek,8,Low,gooseneck_barnacles,0
+Fogarty Creek,8,Low,anemone,0
+Fogarty Creek,8,Mid,bare_rock,0
+Fogarty Creek,8,Mid,algae,1
+Fogarty Creek,8,Mid,mussels,80
+Fogarty Creek,8,Mid,small_barnacles,30
+Fogarty Creek,8,Mid,large_barnacles,1
+Fogarty Creek,8,Mid,gooseneck_barnacles,20
+Fogarty Creek,8,Mid,anemone,0
+Fogarty Creek,8,High,bare_rock,2
+Fogarty Creek,8,High,algae,1
+Fogarty Creek,8,High,mussels,0
+Fogarty Creek,8,High,small_barnacles,98
+Fogarty Creek,8,High,large_barnacles,0
+Fogarty Creek,8,High,gooseneck_barnacles,0
+Fogarty Creek,8,High,anemone,0
+Fogarty Creek,9,Low,bare_rock,0
+Fogarty Creek,9,Low,algae,100
+Fogarty Creek,9,Low,mussels,0
+Fogarty Creek,9,Low,small_barnacles,0
+Fogarty Creek,9,Low,large_barnacles,0
+Fogarty Creek,9,Low,gooseneck_barnacles,0
+Fogarty Creek,9,Low,anemone,1
+Fogarty Creek,9,Mid,bare_rock,0
+Fogarty Creek,9,Mid,algae,1
+Fogarty Creek,9,Mid,mussels,90
+Fogarty Creek,9,Mid,small_barnacles,30
+Fogarty Creek,9,Mid,large_barnacles,2
+Fogarty Creek,9,Mid,gooseneck_barnacles,10
+Fogarty Creek,9,Mid,anemone,0
+Fogarty Creek,9,High,bare_rock,13
+Fogarty Creek,9,High,algae,2
+Fogarty Creek,9,High,mussels,0
+Fogarty Creek,9,High,small_barnacles,85
+Fogarty Creek,9,High,large_barnacles,0
+Fogarty Creek,9,High,gooseneck_barnacles,0
+Fogarty Creek,9,High,anemone,0
+Fogarty Creek,10,Low,bare_rock,0
+Fogarty Creek,10,Low,algae,100
+Fogarty Creek,10,Low,mussels,0
+Fogarty Creek,10,Low,small_barnacles,0
+Fogarty Creek,10,Low,large_barnacles,0
+Fogarty Creek,10,Low,gooseneck_barnacles,0
+Fogarty Creek,10,Low,anemone,0
+Fogarty Creek,10,Mid,bare_rock,0
+Fogarty Creek,10,Mid,algae,0
+Fogarty Creek,10,Mid,mussels,90
+Fogarty Creek,10,Mid,small_barnacles,25
+Fogarty Creek,10,Mid,large_barnacles,2
+Fogarty Creek,10,Mid,gooseneck_barnacles,10
+Fogarty Creek,10,Mid,anemone,1
+Fogarty Creek,10,High,bare_rock,10
+Fogarty Creek,10,High,algae,2
+Fogarty Creek,10,High,mussels,1
+Fogarty Creek,10,High,small_barnacles,90
+Fogarty Creek,10,High,large_barnacles,0
+Fogarty Creek,10,High,gooseneck_barnacles,0
+Fogarty Creek,10,High,anemone,0
+Starfish Point,1,Low,bare_rock,0
+Starfish Point,1,Low,algae,90
+Starfish Point,1,Low,mussels,0
+Starfish Point,1,Low,small_barnacles,0
+Starfish Point,1,Low,large_barnacles,0
+Starfish Point,1,Low,gooseneck_barnacles,1
+Starfish Point,1,Low,anemone,20
+Starfish Point,1,Mid,bare_rock,0
+Starfish Point,1,Mid,algae,0
+Starfish Point,1,Mid,mussels,90
+Starfish Point,1,Mid,small_barnacles,75
+Starfish Point,1,Mid,large_barnacles,5
+Starfish Point,1,Mid,gooseneck_barnacles,10
+Starfish Point,1,Mid,anemone,5
+Starfish Point,1,High,bare_rock,3
+Starfish Point,1,High,algae,0
+Starfish Point,1,High,mussels,1
+Starfish Point,1,High,small_barnacles,95
+Starfish Point,1,High,large_barnacles,0
+Starfish Point,1,High,gooseneck_barnacles,1
+Starfish Point,1,High,anemone,0
+Starfish Point,2,Low,bare_rock,30
+Starfish Point,2,Low,algae,40
+Starfish Point,2,Low,mussels,0
+Starfish Point,2,Low,small_barnacles,0
+Starfish Point,2,Low,large_barnacles,0
+Starfish Point,2,Low,gooseneck_barnacles,0
+Starfish Point,2,Low,anemone,30
+Starfish Point,2,Mid,bare_rock,10
+Starfish Point,2,Mid,algae,0
+Starfish Point,2,Mid,mussels,5
+Starfish Point,2,Mid,small_barnacles,2
+Starfish Point,2,Mid,large_barnacles,5
+Starfish Point,2,Mid,gooseneck_barnacles,90
+Starfish Point,2,Mid,anemone,1
+Starfish Point,2,High,bare_rock,15
+Starfish Point,2,High,algae,3
+Starfish Point,2,High,mussels,0
+Starfish Point,2,High,small_barnacles,85
+Starfish Point,2,High,large_barnacles,0
+Starfish Point,2,High,gooseneck_barnacles,0
+Starfish Point,2,High,anemone,0
+Starfish Point,3,Low,bare_rock,0
+Starfish Point,3,Low,algae,80
+Starfish Point,3,Low,mussels,0
+Starfish Point,3,Low,small_barnacles,20
+Starfish Point,3,Low,large_barnacles,0
+Starfish Point,3,Low,gooseneck_barnacles,0
+Starfish Point,3,Low,anemone,0
+Starfish Point,3,Mid,bare_rock,10
+Starfish Point,3,Mid,algae,0
+Starfish Point,3,Mid,mussels,5
+Starfish Point,3,Mid,small_barnacles,30
+Starfish Point,3,Mid,large_barnacles,5
+Starfish Point,3,Mid,gooseneck_barnacles,80
+Starfish Point,3,Mid,anemone,20
+Starfish Point,3,High,bare_rock,5
+Starfish Point,3,High,algae,5
+Starfish Point,3,High,mussels,1
+Starfish Point,3,High,small_barnacles,95
+Starfish Point,3,High,large_barnacles,0
+Starfish Point,3,High,gooseneck_barnacles,0
+Starfish Point,3,High,anemone,0
+Starfish Point,4,Low,bare_rock,30
+Starfish Point,4,Low,algae,70
+Starfish Point,4,Low,mussels,0
+Starfish Point,4,Low,small_barnacles,0
+Starfish Point,4,Low,large_barnacles,0
+Starfish Point,4,Low,gooseneck_barnacles,0
+Starfish Point,4,Low,anemone,25
+Starfish Point,4,Mid,bare_rock,2
+Starfish Point,4,Mid,algae,0
+Starfish Point,4,Mid,mussels,85
+Starfish Point,4,Mid,small_barnacles,50
+Starfish Point,4,Mid,large_barnacles,5
+Starfish Point,4,Mid,gooseneck_barnacles,15
+Starfish Point,4,Mid,anemone,2
+Starfish Point,4,High,bare_rock,10
+Starfish Point,4,High,algae,5
+Starfish Point,4,High,mussels,1
+Starfish Point,4,High,small_barnacles,90
+Starfish Point,4,High,large_barnacles,0
+Starfish Point,4,High,gooseneck_barnacles,0
+Starfish Point,4,High,anemone,0
+Starfish Point,5,Low,bare_rock,15
+Starfish Point,5,Low,algae,50
+Starfish Point,5,Low,mussels,0
+Starfish Point,5,Low,small_barnacles,0
+Starfish Point,5,Low,large_barnacles,0
+Starfish Point,5,Low,gooseneck_barnacles,0
+Starfish Point,5,Low,anemone,75
+Starfish Point,5,Mid,bare_rock,20
+Starfish Point,5,Mid,algae,0
+Starfish Point,5,Mid,mussels,70
+Starfish Point,5,Mid,small_barnacles,60
+Starfish Point,5,Mid,large_barnacles,5
+Starfish Point,5,Mid,gooseneck_barnacles,25
+Starfish Point,5,Mid,anemone,0
+Starfish Point,5,High,bare_rock,5
+Starfish Point,5,High,algae,5
+Starfish Point,5,High,mussels,1
+Starfish Point,5,High,small_barnacles,95
+Starfish Point,5,High,large_barnacles,0
+Starfish Point,5,High,gooseneck_barnacles,0
+Starfish Point,5,High,anemone,0
+Starfish Point,6,Low,bare_rock,50
+Starfish Point,6,Low,algae,25
+Starfish Point,6,Low,mussels,0
+Starfish Point,6,Low,small_barnacles,15
+Starfish Point,6,Low,large_barnacles,0
+Starfish Point,6,Low,gooseneck_barnacles,0
+Starfish Point,6,Low,anemone,30
+Starfish Point,6,Mid,bare_rock,10
+Starfish Point,6,Mid,algae,0
+Starfish Point,6,Mid,mussels,30
+Starfish Point,6,Mid,small_barnacles,10
+Starfish Point,6,Mid,large_barnacles,10
+Starfish Point,6,Mid,gooseneck_barnacles,80
+Starfish Point,6,Mid,anemone,5
+Starfish Point,6,High,bare_rock,2
+Starfish Point,6,High,algae,2
+Starfish Point,6,High,mussels,1
+Starfish Point,6,High,small_barnacles,98
+Starfish Point,6,High,large_barnacles,0
+Starfish Point,6,High,gooseneck_barnacles,1
+Starfish Point,6,High,anemone,0
+Starfish Point,7,Low,bare_rock,40
+Starfish Point,7,Low,algae,40
+Starfish Point,7,Low,mussels,0
+Starfish Point,7,Low,small_barnacles,0
+Starfish Point,7,Low,large_barnacles,0
+Starfish Point,7,Low,gooseneck_barnacles,0
+Starfish Point,7,Low,anemone,20
+Starfish Point,7,Mid,bare_rock,2
+Starfish Point,7,Mid,algae,0
+Starfish Point,7,Mid,mussels,30
+Starfish Point,7,Mid,small_barnacles,5
+Starfish Point,7,Mid,large_barnacles,5
+Starfish Point,7,Mid,gooseneck_barnacles,60
+Starfish Point,7,Mid,anemone,20
+Starfish Point,7,High,bare_rock,5
+Starfish Point,7,High,algae,4
+Starfish Point,7,High,mussels,1
+Starfish Point,7,High,small_barnacles,95
+Starfish Point,7,High,large_barnacles,0
+Starfish Point,7,High,gooseneck_barnacles,0
+Starfish Point,7,High,anemone,0
+Starfish Point,8,Low,bare_rock,10
+Starfish Point,8,Low,algae,75
+Starfish Point,8,Low,mussels,0
+Starfish Point,8,Low,small_barnacles,1
+Starfish Point,8,Low,large_barnacles,0
+Starfish Point,8,Low,gooseneck_barnacles,0
+Starfish Point,8,Low,anemone,25
+Starfish Point,8,Mid,bare_rock,0
+Starfish Point,8,Mid,algae,0
+Starfish Point,8,Mid,mussels,95
+Starfish Point,8,Mid,small_barnacles,70
+Starfish Point,8,Mid,large_barnacles,0
+Starfish Point,8,Mid,gooseneck_barnacles,5
+Starfish Point,8,Mid,anemone,1
+Starfish Point,8,High,bare_rock,5
+Starfish Point,8,High,algae,5
+Starfish Point,8,High,mussels,2
+Starfish Point,8,High,small_barnacles,95
+Starfish Point,8,High,large_barnacles,0
+Starfish Point,8,High,gooseneck_barnacles,0
+Starfish Point,8,High,anemone,0
+Starfish Point,9,Low,bare_rock,10
+Starfish Point,9,Low,algae,35
+Starfish Point,9,Low,mussels,0
+Starfish Point,9,Low,small_barnacles,0
+Starfish Point,9,Low,large_barnacles,0
+Starfish Point,9,Low,gooseneck_barnacles,0
+Starfish Point,9,Low,anemone,60
+Starfish Point,9,Mid,bare_rock,0
+Starfish Point,9,Mid,algae,0
+Starfish Point,9,Mid,mussels,15
+Starfish Point,9,Mid,small_barnacles,10
+Starfish Point,9,Mid,large_barnacles,0
+Starfish Point,9,Mid,gooseneck_barnacles,85
+Starfish Point,9,Mid,anemone,0
+Starfish Point,9,High,bare_rock,5
+Starfish Point,9,High,algae,0
+Starfish Point,9,High,mussels,5
+Starfish Point,9,High,small_barnacles,90
+Starfish Point,9,High,large_barnacles,0
+Starfish Point,9,High,gooseneck_barnacles,0
+Starfish Point,9,High,anemone,0
+Starfish Point,10,Low,bare_rock,10
+Starfish Point,10,Low,algae,0
+Starfish Point,10,Low,mussels,0
+Starfish Point,10,Low,small_barnacles,10
+Starfish Point,10,Low,large_barnacles,0
+Starfish Point,10,Low,gooseneck_barnacles,0
+Starfish Point,10,Low,anemone,80
+Starfish Point,10,Mid,bare_rock,20
+Starfish Point,10,Mid,algae,0
+Starfish Point,10,Mid,mussels,15
+Starfish Point,10,Mid,small_barnacles,10
+Starfish Point,10,Mid,large_barnacles,5
+Starfish Point,10,Mid,gooseneck_barnacles,35
+Starfish Point,10,Mid,anemone,15
+Starfish Point,10,High,bare_rock,5
+Starfish Point,10,High,algae,0
+Starfish Point,10,High,mussels,5
+Starfish Point,10,High,small_barnacles,90
+Starfish Point,10,High,large_barnacles,0
+Starfish Point,10,High,gooseneck_barnacles,0
+Starfish Point,10,High,anemone,0
+Cape Meares,1,Low,bare_rock,40
+Cape Meares,1,Low,algae,0
+Cape Meares,1,Low,mussels,3
+Cape Meares,1,Low,small_barnacles,0
+Cape Meares,1,Low,large_barnacles,30
+Cape Meares,1,Low,gooseneck_barnacles,50
+Cape Meares,1,Low,anemone,0
+Cape Meares,1,Mid,bare_rock,5
+Cape Meares,1,Mid,algae,15
+Cape Meares,1,Mid,mussels,15
+Cape Meares,1,Mid,small_barnacles,1
+Cape Meares,1,Mid,large_barnacles,40
+Cape Meares,1,Mid,gooseneck_barnacles,40
+Cape Meares,1,Mid,anemone,10
+Cape Meares,1,High,bare_rock,55
+Cape Meares,1,High,algae,5
+Cape Meares,1,High,mussels,0
+Cape Meares,1,High,small_barnacles,5
+Cape Meares,1,High,large_barnacles,40
+Cape Meares,1,High,gooseneck_barnacles,0
+Cape Meares,1,High,anemone,0
+Cape Meares,2,Low,bare_rock,30
+Cape Meares,2,Low,algae,0
+Cape Meares,2,Low,mussels,5
+Cape Meares,2,Low,small_barnacles,0
+Cape Meares,2,Low,large_barnacles,10
+Cape Meares,2,Low,gooseneck_barnacles,20
+Cape Meares,2,Low,anemone,50
+Cape Meares,2,Mid,bare_rock,0
+Cape Meares,2,Mid,algae,10
+Cape Meares,2,Mid,mussels,40
+Cape Meares,2,Mid,small_barnacles,5
+Cape Meares,2,Mid,large_barnacles,30
+Cape Meares,2,Mid,gooseneck_barnacles,30
+Cape Meares,2,Mid,anemone,0
+Cape Meares,2,High,bare_rock,60
+Cape Meares,2,High,algae,5
+Cape Meares,2,High,mussels,1
+Cape Meares,2,High,small_barnacles,5
+Cape Meares,2,High,large_barnacles,30
+Cape Meares,2,High,gooseneck_barnacles,0
+Cape Meares,2,High,anemone,0
+Cape Meares,3,Low,bare_rock,20
+Cape Meares,3,Low,algae,0
+Cape Meares,3,Low,mussels,20
+Cape Meares,3,Low,small_barnacles,2
+Cape Meares,3,Low,large_barnacles,30
+Cape Meares,3,Low,gooseneck_barnacles,10
+Cape Meares,3,Low,anemone,20
+Cape Meares,3,Mid,bare_rock,0
+Cape Meares,3,Mid,algae,15
+Cape Meares,3,Mid,mussels,80
+Cape Meares,3,Mid,small_barnacles,5
+Cape Meares,3,Mid,large_barnacles,50
+Cape Meares,3,Mid,gooseneck_barnacles,50
+Cape Meares,3,Mid,anemone,0
+Cape Meares,3,High,bare_rock,85
+Cape Meares,3,High,algae,0
+Cape Meares,3,High,mussels,0
+Cape Meares,3,High,small_barnacles,5
+Cape Meares,3,High,large_barnacles,10
+Cape Meares,3,High,gooseneck_barnacles,0
+Cape Meares,3,High,anemone,0
+Cape Meares,4,Low,bare_rock,15
+Cape Meares,4,Low,algae,5
+Cape Meares,4,Low,mussels,40
+Cape Meares,4,Low,small_barnacles,0
+Cape Meares,4,Low,large_barnacles,50
+Cape Meares,4,Low,gooseneck_barnacles,10
+Cape Meares,4,Low,anemone,15
+Cape Meares,4,Mid,bare_rock,0
+Cape Meares,4,Mid,algae,20
+Cape Meares,4,Mid,mussels,60
+Cape Meares,4,Mid,small_barnacles,5
+Cape Meares,4,Mid,large_barnacles,60
+Cape Meares,4,Mid,gooseneck_barnacles,30
+Cape Meares,4,Mid,anemone,0
+Cape Meares,4,High,bare_rock,70
+Cape Meares,4,High,algae,2
+Cape Meares,4,High,mussels,0
+Cape Meares,4,High,small_barnacles,5
+Cape Meares,4,High,large_barnacles,25
+Cape Meares,4,High,gooseneck_barnacles,0
+Cape Meares,4,High,anemone,0
+Cape Meares,5,Low,bare_rock,20
+Cape Meares,5,Low,algae,0
+Cape Meares,5,Low,mussels,40
+Cape Meares,5,Low,small_barnacles,5
+Cape Meares,5,Low,large_barnacles,20
+Cape Meares,5,Low,gooseneck_barnacles,10
+Cape Meares,5,Low,anemone,5
+Cape Meares,5,Mid,bare_rock,5
+Cape Meares,5,Mid,algae,2
+Cape Meares,5,Mid,mussels,85
+Cape Meares,5,Mid,small_barnacles,10
+Cape Meares,5,Mid,large_barnacles,50
+Cape Meares,5,Mid,gooseneck_barnacles,10
+Cape Meares,5,Mid,anemone,3
+Cape Meares,5,High,bare_rock,95
+Cape Meares,5,High,algae,0
+Cape Meares,5,High,mussels,0
+Cape Meares,5,High,small_barnacles,2
+Cape Meares,5,High,large_barnacles,3
+Cape Meares,5,High,gooseneck_barnacles,0
+Cape Meares,5,High,anemone,0
+Cape Meares,6,Low,bare_rock,20
+Cape Meares,6,Low,algae,5
+Cape Meares,6,Low,mussels,20
+Cape Meares,6,Low,small_barnacles,15
+Cape Meares,6,Low,large_barnacles,40
+Cape Meares,6,Low,gooseneck_barnacles,25
+Cape Meares,6,Low,anemone,10
+Cape Meares,6,Mid,bare_rock,0
+Cape Meares,6,Mid,algae,70
+Cape Meares,6,Mid,mussels,40
+Cape Meares,6,Mid,small_barnacles,10
+Cape Meares,6,Mid,large_barnacles,70
+Cape Meares,6,Mid,gooseneck_barnacles,15
+Cape Meares,6,Mid,anemone,0
+Cape Meares,6,High,bare_rock,55
+Cape Meares,6,High,algae,0
+Cape Meares,6,High,mussels,0
+Cape Meares,6,High,small_barnacles,5
+Cape Meares,6,High,large_barnacles,10
+Cape Meares,6,High,gooseneck_barnacles,0
+Cape Meares,6,High,anemone,0
+Cape Meares,7,Low,bare_rock,25
+Cape Meares,7,Low,algae,10
+Cape Meares,7,Low,mussels,5
+Cape Meares,7,Low,small_barnacles,0
+Cape Meares,7,Low,large_barnacles,70
+Cape Meares,7,Low,gooseneck_barnacles,0
+Cape Meares,7,Low,anemone,15
+Cape Meares,7,Mid,bare_rock,10
+Cape Meares,7,Mid,algae,75
+Cape Meares,7,Mid,mussels,40
+Cape Meares,7,Mid,small_barnacles,3
+Cape Meares,7,Mid,large_barnacles,35
+Cape Meares,7,Mid,gooseneck_barnacles,20
+Cape Meares,7,Mid,anemone,0
+Cape Meares,7,High,bare_rock,95
+Cape Meares,7,High,algae,0
+Cape Meares,7,High,mussels,0
+Cape Meares,7,High,small_barnacles,2
+Cape Meares,7,High,large_barnacles,3
+Cape Meares,7,High,gooseneck_barnacles,0
+Cape Meares,7,High,anemone,0
+Cape Meares,8,Low,bare_rock,25
+Cape Meares,8,Low,algae,0
+Cape Meares,8,Low,mussels,5
+Cape Meares,8,Low,small_barnacles,0
+Cape Meares,8,Low,large_barnacles,20
+Cape Meares,8,Low,gooseneck_barnacles,10
+Cape Meares,8,Low,anemone,50
+Cape Meares,8,Mid,bare_rock,0
+Cape Meares,8,Mid,algae,25
+Cape Meares,8,Mid,mussels,40
+Cape Meares,8,Mid,small_barnacles,2
+Cape Meares,8,Mid,large_barnacles,60
+Cape Meares,8,Mid,gooseneck_barnacles,35
+Cape Meares,8,Mid,anemone,3
+Cape Meares,8,High,bare_rock,80
+Cape Meares,8,High,algae,0
+Cape Meares,8,High,mussels,0
+Cape Meares,8,High,small_barnacles,5
+Cape Meares,8,High,large_barnacles,15
+Cape Meares,8,High,gooseneck_barnacles,0
+Cape Meares,8,High,anemone,0
+Cape Meares,9,Low,bare_rock,45
+Cape Meares,9,Low,algae,0
+Cape Meares,9,Low,mussels,5
+Cape Meares,9,Low,small_barnacles,0
+Cape Meares,9,Low,large_barnacles,0
+Cape Meares,9,Low,gooseneck_barnacles,0
+Cape Meares,9,Low,anemone,50
+Cape Meares,9,Mid,bare_rock,5
+Cape Meares,9,Mid,algae,20
+Cape Meares,9,Mid,mussels,45
+Cape Meares,9,Mid,small_barnacles,25
+Cape Meares,9,Mid,large_barnacles,40
+Cape Meares,9,Mid,gooseneck_barnacles,5
+Cape Meares,9,Mid,anemone,5
+Cape Meares,9,High,bare_rock,70
+Cape Meares,9,High,algae,0
+Cape Meares,9,High,mussels,0
+Cape Meares,9,High,small_barnacles,5
+Cape Meares,9,High,large_barnacles,25
+Cape Meares,9,High,gooseneck_barnacles,0
+Cape Meares,9,High,anemone,0
+Cape Meares,10,Low,bare_rock,0
+Cape Meares,10,Low,algae,0
+Cape Meares,10,Low,mussels,30
+Cape Meares,10,Low,small_barnacles,0
+Cape Meares,10,Low,large_barnacles,30
+Cape Meares,10,Low,gooseneck_barnacles,10
+Cape Meares,10,Low,anemone,35
+Cape Meares,10,Mid,bare_rock,0
+Cape Meares,10,Mid,algae,0
+Cape Meares,10,Mid,mussels,60
+Cape Meares,10,Mid,small_barnacles,0
+Cape Meares,10,Mid,large_barnacles,90
+Cape Meares,10,Mid,gooseneck_barnacles,15
+Cape Meares,10,Mid,anemone,5
+Cape Meares,10,High,bare_rock,55
+Cape Meares,10,High,algae,15
+Cape Meares,10,High,mussels,0
+Cape Meares,10,High,small_barnacles,15
+Cape Meares,10,High,large_barnacles,30
+Cape Meares,10,High,gooseneck_barnacles,0
+Cape Meares,10,High,anemone,0
+Pyramid Point,1,Low,bare_rock,40
+Pyramid Point,1,Low,algae,10
+Pyramid Point,1,Low,mussels,15
+Pyramid Point,1,Low,small_barnacles,0
+Pyramid Point,1,Low,large_barnacles,1
+Pyramid Point,1,Low,gooseneck_barnacles,30
+Pyramid Point,1,Low,anemone,5
+Pyramid Point,1,Mid,bare_rock,0
+Pyramid Point,1,Mid,algae,0
+Pyramid Point,1,Mid,mussels,75
+Pyramid Point,1,Mid,small_barnacles,0
+Pyramid Point,1,Mid,large_barnacles,5
+Pyramid Point,1,Mid,gooseneck_barnacles,25
+Pyramid Point,1,Mid,anemone,0
+Pyramid Point,1,High,bare_rock,65
+Pyramid Point,1,High,algae,10
+Pyramid Point,1,High,mussels,0
+Pyramid Point,1,High,small_barnacles,15
+Pyramid Point,1,High,large_barnacles,10
+Pyramid Point,1,High,gooseneck_barnacles,0
+Pyramid Point,1,High,anemone,0
+Pyramid Point,2,Low,bare_rock,60
+Pyramid Point,2,Low,algae,5
+Pyramid Point,2,Low,mussels,15
+Pyramid Point,2,Low,small_barnacles,5
+Pyramid Point,2,Low,large_barnacles,5
+Pyramid Point,2,Low,gooseneck_barnacles,20
+Pyramid Point,2,Low,anemone,10
+Pyramid Point,2,Mid,bare_rock,5
+Pyramid Point,2,Mid,algae,0
+Pyramid Point,2,Mid,mussels,40
+Pyramid Point,2,Mid,small_barnacles,5
+Pyramid Point,2,Mid,large_barnacles,10
+Pyramid Point,2,Mid,gooseneck_barnacles,60
+Pyramid Point,2,Mid,anemone,0
+Pyramid Point,2,High,bare_rock,30
+Pyramid Point,2,High,algae,20
+Pyramid Point,2,High,mussels,5
+Pyramid Point,2,High,small_barnacles,10
+Pyramid Point,2,High,large_barnacles,30
+Pyramid Point,2,High,gooseneck_barnacles,0
+Pyramid Point,2,High,anemone,0
+Pyramid Point,3,Low,bare_rock,60
+Pyramid Point,3,Low,algae,0
+Pyramid Point,3,Low,mussels,15
+Pyramid Point,3,Low,small_barnacles,20
+Pyramid Point,3,Low,large_barnacles,0
+Pyramid Point,3,Low,gooseneck_barnacles,25
+Pyramid Point,3,Low,anemone,5
+Pyramid Point,3,Mid,bare_rock,20
+Pyramid Point,3,Mid,algae,0
+Pyramid Point,3,Mid,mussels,70
+Pyramid Point,3,Mid,small_barnacles,10
+Pyramid Point,3,Mid,large_barnacles,10
+Pyramid Point,3,Mid,gooseneck_barnacles,20
+Pyramid Point,3,Mid,anemone,1
+Pyramid Point,3,High,bare_rock,40
+Pyramid Point,3,High,algae,20
+Pyramid Point,3,High,mussels,15
+Pyramid Point,3,High,small_barnacles,10
+Pyramid Point,3,High,large_barnacles,15
+Pyramid Point,3,High,gooseneck_barnacles,0
+Pyramid Point,3,High,anemone,0
+Pyramid Point,4,Low,bare_rock,70
+Pyramid Point,4,Low,algae,0
+Pyramid Point,4,Low,mussels,10
+Pyramid Point,4,Low,small_barnacles,0
+Pyramid Point,4,Low,large_barnacles,0
+Pyramid Point,4,Low,gooseneck_barnacles,0
+Pyramid Point,4,Low,anemone,20
+Pyramid Point,4,Mid,bare_rock,5
+Pyramid Point,4,Mid,algae,5
+Pyramid Point,4,Mid,mussels,15
+Pyramid Point,4,Mid,small_barnacles,5
+Pyramid Point,4,Mid,large_barnacles,20
+Pyramid Point,4,Mid,gooseneck_barnacles,70
+Pyramid Point,4,Mid,anemone,0
+Pyramid Point,4,High,bare_rock,25
+Pyramid Point,4,High,algae,35
+Pyramid Point,4,High,mussels,15
+Pyramid Point,4,High,small_barnacles,10
+Pyramid Point,4,High,large_barnacles,50
+Pyramid Point,4,High,gooseneck_barnacles,0
+Pyramid Point,4,High,anemone,0
+Pyramid Point,5,Low,bare_rock,30
+Pyramid Point,5,Low,algae,0
+Pyramid Point,5,Low,mussels,20
+Pyramid Point,5,Low,small_barnacles,20
+Pyramid Point,5,Low,large_barnacles,5
+Pyramid Point,5,Low,gooseneck_barnacles,35
+Pyramid Point,5,Low,anemone,15
+Pyramid Point,5,Mid,bare_rock,10
+Pyramid Point,5,Mid,algae,0
+Pyramid Point,5,Mid,mussels,80
+Pyramid Point,5,Mid,small_barnacles,0
+Pyramid Point,5,Mid,large_barnacles,0
+Pyramid Point,5,Mid,gooseneck_barnacles,15
+Pyramid Point,5,Mid,anemone,10
+Pyramid Point,5,High,bare_rock,20
+Pyramid Point,5,High,algae,15
+Pyramid Point,5,High,mussels,5
+Pyramid Point,5,High,small_barnacles,10
+Pyramid Point,5,High,large_barnacles,50
+Pyramid Point,5,High,gooseneck_barnacles,0
+Pyramid Point,5,High,anemone,0
+Pyramid Point,6,Low,bare_rock,70
+Pyramid Point,6,Low,algae,1
+Pyramid Point,6,Low,mussels,5
+Pyramid Point,6,Low,small_barnacles,15
+Pyramid Point,6,Low,large_barnacles,1
+Pyramid Point,6,Low,gooseneck_barnacles,5
+Pyramid Point,6,Low,anemone,10
+Pyramid Point,6,Mid,bare_rock,15
+Pyramid Point,6,Mid,algae,0
+Pyramid Point,6,Mid,mussels,40
+Pyramid Point,6,Mid,small_barnacles,5
+Pyramid Point,6,Mid,large_barnacles,1
+Pyramid Point,6,Mid,gooseneck_barnacles,50
+Pyramid Point,6,Mid,anemone,5
+Pyramid Point,6,High,bare_rock,30
+Pyramid Point,6,High,algae,5
+Pyramid Point,6,High,mussels,0
+Pyramid Point,6,High,small_barnacles,5
+Pyramid Point,6,High,large_barnacles,60
+Pyramid Point,6,High,gooseneck_barnacles,0
+Pyramid Point,6,High,anemone,0
+Pyramid Point,7,Low,bare_rock,60
+Pyramid Point,7,Low,algae,0
+Pyramid Point,7,Low,mussels,20
+Pyramid Point,7,Low,small_barnacles,50
+Pyramid Point,7,Low,large_barnacles,20
+Pyramid Point,7,Low,gooseneck_barnacles,0
+Pyramid Point,7,Low,anemone,5
+Pyramid Point,7,Mid,bare_rock,10
+Pyramid Point,7,Mid,algae,0
+Pyramid Point,7,Mid,mussels,85
+Pyramid Point,7,Mid,small_barnacles,10
+Pyramid Point,7,Mid,large_barnacles,5
+Pyramid Point,7,Mid,gooseneck_barnacles,5
+Pyramid Point,7,Mid,anemone,0
+Pyramid Point,7,High,bare_rock,30
+Pyramid Point,7,High,algae,5
+Pyramid Point,7,High,mussels,25
+Pyramid Point,7,High,small_barnacles,10
+Pyramid Point,7,High,large_barnacles,50
+Pyramid Point,7,High,gooseneck_barnacles,1
+Pyramid Point,7,High,anemone,0
+Pyramid Point,8,Low,bare_rock,20
+Pyramid Point,8,Low,algae,0
+Pyramid Point,8,Low,mussels,10
+Pyramid Point,8,Low,small_barnacles,15
+Pyramid Point,8,Low,large_barnacles,1
+Pyramid Point,8,Low,gooseneck_barnacles,50
+Pyramid Point,8,Low,anemone,10
+Pyramid Point,8,Mid,bare_rock,5
+Pyramid Point,8,Mid,algae,0
+Pyramid Point,8,Mid,mussels,90
+Pyramid Point,8,Mid,small_barnacles,50
+Pyramid Point,8,Mid,large_barnacles,5
+Pyramid Point,8,Mid,gooseneck_barnacles,10
+Pyramid Point,8,Mid,anemone,0
+Pyramid Point,8,High,bare_rock,20
+Pyramid Point,8,High,algae,50
+Pyramid Point,8,High,mussels,0
+Pyramid Point,8,High,small_barnacles,10
+Pyramid Point,8,High,large_barnacles,40
+Pyramid Point,8,High,gooseneck_barnacles,0
+Pyramid Point,8,High,anemone,0
+Pyramid Point,9,Low,bare_rock,80
+Pyramid Point,9,Low,algae,0
+Pyramid Point,9,Low,mussels,5
+Pyramid Point,9,Low,small_barnacles,10
+Pyramid Point,9,Low,large_barnacles,5
+Pyramid Point,9,Low,gooseneck_barnacles,5
+Pyramid Point,9,Low,anemone,0
+Pyramid Point,9,Mid,bare_rock,0
+Pyramid Point,9,Mid,algae,0
+Pyramid Point,9,Mid,mussels,95
+Pyramid Point,9,Mid,small_barnacles,40
+Pyramid Point,9,Mid,large_barnacles,5
+Pyramid Point,9,Mid,gooseneck_barnacles,5
+Pyramid Point,9,Mid,anemone,0
+Pyramid Point,9,High,bare_rock,40
+Pyramid Point,9,High,algae,10
+Pyramid Point,9,High,mussels,5
+Pyramid Point,9,High,small_barnacles,0
+Pyramid Point,9,High,large_barnacles,40
+Pyramid Point,9,High,gooseneck_barnacles,5
+Pyramid Point,9,High,anemone,0
+Pyramid Point,10,Low,bare_rock,40
+Pyramid Point,10,Low,algae,0
+Pyramid Point,10,Low,mussels,5
+Pyramid Point,10,Low,small_barnacles,35
+Pyramid Point,10,Low,large_barnacles,5
+Pyramid Point,10,Low,gooseneck_barnacles,15
+Pyramid Point,10,Low,anemone,0
+Pyramid Point,10,Mid,bare_rock,25
+Pyramid Point,10,Mid,algae,5
+Pyramid Point,10,Mid,mussels,50
+Pyramid Point,10,Mid,small_barnacles,15
+Pyramid Point,10,Mid,large_barnacles,5
+Pyramid Point,10,Mid,gooseneck_barnacles,15
+Pyramid Point,10,Mid,anemone,0
+Pyramid Point,10,High,bare_rock,15
+Pyramid Point,10,High,algae,0
+Pyramid Point,10,High,mussels,90
+Pyramid Point,10,High,small_barnacles,20
+Pyramid Point,10,High,large_barnacles,40
+Pyramid Point,10,High,gooseneck_barnacles,1
+Pyramid Point,10,High,anemone,0
