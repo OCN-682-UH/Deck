@@ -1,0 +1,63 @@
+---
+title: "Tidy Tuesday- Bob's Burgers"
+author: "Annie Deck"
+date: "2024-11-26"
+output: 
+  prettydoc::html_pretty:
+    theme: cayman
+    toc: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      message=FALSE,
+                      warning=FALSE)
+```
+
+* This week we are working with a dataset that gives us different metrics for Bob's burgers episodes
+* This week I made my first **density plot**. I also tried a new Markdown theme: **cayman** within the **prettydoc package**
+
+# Load libraries
+```{r}
+library(tidyverse)
+library(here)
+library(prettydoc)
+library(ggridges)
+library(viridis)           
+```
+
+# Bring in data
+```{r}
+#read in from GitHub
+episode_metrics <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-11-19/episode_metrics.csv')
+
+#save to my data folder
+readr::write_csv(episode_metrics, here::here("Tidy_Tuesday", "Bobs_burgers", "Data", "episode_metrics.csv"))
+
+```
+
+# Making a density plot
+```{r, fig.align='center'}
+burger <- episode_metrics %>%
+  ggplot(aes(x = unique_words, ##plot unique words on x axis
+             y= season, ##plot season on y axis
+             group= season)) + ##group unique words variable by season column
+  geom_density_ridges2(aes(fill=factor(season)), ##use density ridges to make 3D looking density plots that are overlaid with each other & convert season to a factor
+                       alpha = 0.8) +  ##tone down the color a little 
+  scale_fill_viridis(discrete= TRUE, option= "magma")+ ##fill density curves with magma color scale (make is discrete since this is a categorical variable)
+  scale_y_discrete(limits = unique(episode_metrics$season)) + ##unique gets each unique value in seasons column & limits sets them as y axis labels
+  theme_bw() +
+  theme(legend.position = "none") + ##remove legend because it is redundant
+  labs(title = "Distribution of Unique Words by Bob's Burger Season", 
+    x = "Unique Words",
+    y = "Season",
+    caption = "Source: Tidy Tuesday Bob's Burgers dataset")
+
+burger
+
+```
+# Saving 
+```{r}
+ggsave(here("Tidy_Tuesday", "Bobs_burgers", "Output", "burger.png"))
+```
+
