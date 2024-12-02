@@ -1,0 +1,178 @@
+---
+title: "Final Project"
+author: "Annie Deck"
+date: "2024-11-20"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      message=FALSE,
+                      warning=FALSE)
+```
+
+# Load libraries 
+```{r}
+library(here)
+library(tidyverse)
+library(ggmap)
+```
+
+# Read in data
+```{r}
+MCR_LTER<- read.csv(here("Final_Project", "Data", "MCR_LTER_Benthic_Cover.csv"))
+```
+
+# Explore data
+```{r}
+glimpse(MCR_LTER)
+
+##2005-2023
+unique(MCR_LTER$Year)
+
+##six sites
+unique(MCR_LTER$Site)
+
+##four habits (for each site)
+unique(MCR_LTER$Habitat)
+
+##subset for just 2008
+MCR_2008 <-filter(.data= MCR_LTER, Year == "2008")
+
+##looks like for some years not all habits were sampled 
+unique(MCR_2008$Site)
+unique(MCR_2008$Habitat)
+unique(MCR_2008$Transect)
+```
+
+# Exploring cont. with plotting
+```{r}
+cleaned_2008 <- MCR_2008 %>%
+  # Group by location, habitat, and substrate type
+  group_by(Site, Habitat, Taxonomy_Substrate_Functional_Group) %>%
+  # Calculate mean percent cover across quadrats and transects
+  summarise(mean_percent_cover = mean(Percent_Cover, na.rm = TRUE)) %>%
+  # Ungroup to remove grouping structure
+  ungroup()
+
+##looks like the taxa reported across habitat varies (not consistent list of taxa reported)
+fringing_data <- cleaned_2008 %>% 
+  filter(Habitat == "Fringing", Site == "LTER 2")
+
+ggplot(fringing_data, aes(x = Taxonomy_Substrate_Functional_Group, 
+                         y = mean_percent_cover)) + 
+  geom_bar(stat = "identity", position = "dodge") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+# Data wrangling
+```{r}
+##clean data for output #1 in shiny app
+## get average percent cover for each habitat at each site for each year
+MCR_LTER_cleaned <- MCR_LTER %>%
+  # Group by location, habitat, and substrate type
+  group_by(Year, Site, Habitat, Taxonomy_Substrate_Functional_Group) %>%
+  # Calculate mean percent cover across quadrats and transects
+  summarise(mean_percent_cover = mean(Percent_Cover, na.rm = TRUE)) %>%
+  # Ungroup to remove grouping structure
+  ungroup()
+
+##export to shiny app folder
+readr::write_csv(MCR_LTER_cleaned, here::here("Final_project_shiny", "MCR_LTER_cleaned.csv"))
+
+##clean data for output #2 
+##Change in just coral & algal turf by site over the sample period 
+MCR_line_plot <- MCR_LTER %>%
+  filter(Taxonomy_Substrate_Functional_Group == "Coral" |  Taxonomy_Substrate_Functional_Group == "Algal Turf") %>% 
+  group_by(Year, Site, Taxonomy_Substrate_Functional_Group) %>%
+    summarise(mean_percent_cover = mean(Percent_Cover, na.rm = TRUE)) %>%
+  # Ungroup to remove grouping structure
+  ungroup()
+
+##export to shiny app folder
+readr::write_csv(MCR_line_plot, here::here("Final_project_shiny", "MCR_line_plot.csv"))
+```
+# Plotting output #2
+```{r}
+#Line plot of coral vs algal turf
+coralvalgal <- MCR_line_plot %>%
+  ggplot(aes(x = Year,
+             y = mean_percent_cover,
+             color = Site)) +
+  geom_line() +
+  facet_wrap(~ Taxonomy_Substrate_Functional_Group, ncol=1) +
+  scale_y_continuous(labels = function(x) paste0(x, "%")) +
+  theme_bw() +
+  labs(x = "Year",
+       y = "Percent Cover (%)")
+
+coralvalgal
+```
+
+# Fish abundance
+```{r}
+##read in fish abundance data set
+fish_abund_data <- read_csv(here("Final_Project", "Data", "MCR_LTER_Fish_Coral_Abundance_Change.csv"))
+
+##subset for just site 1 since all sites appear to follow relatively similar patterns
+fish_abund_1 <- fish_abund_data %>%
+  filter(Site == "LTER 1") %>%
+  pivot_longer(cols = Coral_Dweller:Territorial_Herbivore, ##change data format to long
+               names_to = "Fish_group",
+               values_to = "Change")
+
+##export to shiny app folder
+readr::write_csv(fish_abund_1, here::here("Final_project_shiny", "fish_lollipop.csv"))
+```
+
+# Plotting output #3
+```{r}
+##lollipop plot to show change in abundance
+fish_abund_1 %>% 
+  ggplot(aes(x = Change, 
+             y = Fish_group)) +
+  geom_segment(aes(x = 0, xend = Change, y = Fish_group, yend = Fish_group), 
+               color = "gray") + ##line segment will be grey
+  geom_point(aes(color = ifelse(Change < 0, "blue", "red"))) + ##negative values in red and positive values in blue
+  scale_color_manual(values = c("red", "blue")) +
+  theme_bw() +
+  theme(legend.position = "none",
+        panel.grid.major.y = element_blank()) +
+  labs(
+    x = "Change in Abundance",
+    y = "Fish functional group",
+    title = "Changes in abundance of fish functional groups"
+  )
+```
+# mapping LTER sample sites
+```{r}
+
+##get world data
+world<-map_data("world")
+
+##subset for just Moorea
+moorea_data<- world %>%
+  filter(subregion== "Moorea") 
+
+# Create the map plot of Moorea
+# Not very detailed/bad resolution 
+ggplot(moorea_data, aes(x = long, y = lat, group = group)) +
+  geom_polygon(fill = "lightblue", color = "black") +
+  coord_fixed(1.3) +
+  labs(
+    title = "Map of Moorea",
+    x = "Longitude",
+    y = "Latitude"
+  ) +
+  theme_minimal()
+
+##using map_data
+geocode("Moorea")
+
+
+
+
+
+```
+
