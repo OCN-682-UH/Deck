@@ -16,6 +16,7 @@ knitr::opts_chunk$set(echo = TRUE,
 library(here)
 library(tidyverse)
 library(ggmap)
+library(ggspatial)
 ```
 
 # Read in data
@@ -89,6 +90,26 @@ MCR_line_plot <- MCR_LTER %>%
     summarise(mean_percent_cover = mean(Percent_Cover, na.rm = TRUE)) %>%
   # Ungroup to remove grouping structure
   ungroup()
+
+
+##adding LTER coordinates to data frame
+MCR_line_plot_coord <- MCR_line_plot %>%
+  mutate(
+  latitude = case_when(
+    Site == "LTER 1" ~ -17.48,
+    Site == "LTER 2" ~ -17.48,
+    Site == "LTER 3" ~ -17.51,
+    Site == "LTER 4" ~ -17.54,
+    Site == "LTER 5" ~ -17.57,
+    Site == "LTER 6" ~ -17.51),
+  longitude = case_when(
+    Site == "LTER 1" ~ -149.83,
+    Site == "LTER 2" ~ -149.80,
+    Site == "LTER 3" ~ -149.76,
+    Site == "LTER 4" ~ -149.77,
+    Site == "LTER 5" ~ -149.879,
+    Site == "LTER 6" ~ -149.92))
+
 
 ##export to shiny app folder
 readr::write_csv(MCR_line_plot, here::here("Final_project_shiny", "MCR_line_plot.csv"))
@@ -169,6 +190,48 @@ ggplot(moorea_data, aes(x = long, y = lat, group = group)) +
 
 ##using map_data
 geocode("Moorea")
+
+moorea_center <- c(lon = -149.85, lat = -17.53)
+
+
+##create map of Moorea
+moorea_map <- get_map(moorea_center, 
+                      zoom = 12,  
+                      maptype = "satellite")
+
+##plot map of Moorea
+ggmap(moorea_map) + labs(
+    title = "Moorea Island",
+    subtitle = "French Polynesia",
+    x = "Longitude",
+    y = "Latitude"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 16, face = "bold"),
+    plot.subtitle = element_text(hjust = 0.5)
+  )
+
+##plot map with LTER sample sites
+ggmap(moorea_map) + ##input base map
+  geom_point(data= MCR_line_plot_coord,aes(x= longitude, ##plot sites at their specific lat and long with a point
+                                           y= latitude,
+                                           color= Site), ##color dots by site
+             size= 4) + 
+  annotation_north_arrow(location = "tl", 
+                         height = unit(0.9, "cm"),
+                         width = unit(0.9, "cm")) + # add a north arrow
+  annotation_scale(bar_cols = c("black", 
+                                 "white"),
+                    location = "bl",
+                   text_col= "white") +
+  coord_sf(crs = 4326) +
+  labs(title = "Mo'orea Island",
+    subtitle = "French Polynesia",
+    x = "Longitude",
+    y = "Latitude") +
+  theme(plot.title = element_text(hjust = 0.5, size = 16, face = "bold"),
+    plot.subtitle = element_text(hjust = 0.5))
 
 
 

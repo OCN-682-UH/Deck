@@ -1,0 +1,89 @@
+---
+title: "Tidy Tuesday"
+author: "Annie Deck"
+date: "2024-12-03"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      message=FALSE,
+                      warning=FALSE)
+```
+# U.S. Customs and Border Protection Encounter Data
+
+* This week for Tidy Tuesday we are working with the U.S. Customs and Border Protection (CBP) Encounter Data 
+* I wanted to learn some new tools to make the aesthetics of a figure look really nice. 
+* Since the numbers on the y-axis were very large and hard to interpret quickly, I learned how to insert breaks and custom labels. I also used a new ggplot theme to only retain the lines on the x and y axes and then I added very light horizontal grey lines to make the figure easy to interpret.
+
+
+
+# Load Libraries
+```{r}
+library(here)
+library(tidyverse)
+library(viridis) 
+library(usmap)
+```
+
+# Bring in data
+```{r}
+##read in from Github
+cbp_resp <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-11-26/cbp_resp.csv')
+
+cbp_state <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-11-26/cbp_state.csv')
+
+
+## save to data folder 
+readr::write_csv(cbp_resp, here::here("Tidy_Tuesday", "Customs", "Data", "cbp_resp.csv"))
+
+readr::write_csv(cbp_state, here::here("Tidy_Tuesday", "Customs", "Data", "cbp_state.csv"))
+
+```
+# Data prep
+```{r}
+cbp_resp_sumarized <- cbp_resp %>%
+  group_by(fiscal_year, encounter_type) %>% ##group by year and encounter type
+  summarise(total_encounters = sum(encounter_count, na.rm = TRUE)) %>% ##make a new column with the sum of each enounter type for each year
+  ungroup()
+
+```
+
+
+# Plotting 
+```{r, fig.align='center'}
+encounters_plot <- cbp_resp_sumarized %>%
+  ggplot(aes(x= fiscal_year,
+             y= total_encounters,
+             color= encounter_type)) +
+  geom_line() +
+  geom_point(size=3.3)+
+  scale_y_continuous(
+    breaks = c(500000, 1000000, 1500000), ##edit y axis to have breaks at these points
+    labels = c("500k", "1M", "1.5M")) + ##custom y axis lables 
+  scale_color_manual(values = c("#FFB6C1","#AFEEEE", "#2166ac")) + ##make lines & points nice colors
+  theme_classic() + ##add theme that takes away a lot of the unnecessary grid lines
+  theme(plot.title = element_text(size = 20, face = "bold", hjust = 0.5), ##make title look nice
+        plot.subtitle = element_text(size= 14, hjust=0.5), #make subtitle appropiate size and center it 
+        legend.position = "top", ##move legend to the top
+        legend.title=element_blank(), #remove unnecessary legend title
+        panel.grid.major.y = element_line(color = "lightgrey", ##add thin horizontal grey lines
+                                           linewidth = 0.2),
+        axis.text.x = element_text(size = 11),  ##make axis lables larger and easier to read
+        axis.text.y = element_text(size = 11)) +  
+  labs(x = "", ##axis lables seem redundant so removing these
+       y = "",
+       title = "U.S. Border Analysis (FY 2020-2024)",
+       subtitle = "Trends in Total Encounters",
+       caption = "Source: Tidy Tuesday's U.S. Customs and Border Protection (CBP) Encounter Data") 
+
+encounters_plot
+
+```
+
+# Saving figure
+```{r}
+ggsave(here("Tidy_Tuesday", "Customs", "Output", "encounters_plot.png"), width= 8, height=5) ##save to Output folder. edits dimensions to make it long and skinny
+
+```
+
