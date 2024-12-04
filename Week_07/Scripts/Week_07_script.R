@@ -122,5 +122,5 @@ ggplot()+
                  size=star_no)) +
   coord_map()+
   theme_void()+
-  scale_fill_gradient(trans= "log10") +
-  ggsave()
+  scale_fill_gradient(trans= "log10") 
+

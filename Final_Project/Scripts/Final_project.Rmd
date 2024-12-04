@@ -17,6 +17,7 @@ library(here)
 library(tidyverse)
 library(ggmap)
 library(ggspatial)
+library(RColorBrewer)
 ```
 
 # Read in data
@@ -86,7 +87,7 @@ readr::write_csv(MCR_LTER_cleaned, here::here("Final_project_shiny", "MCR_LTER_c
 ##Change in just coral & algal turf by site over the sample period 
 MCR_line_plot <- MCR_LTER %>%
   filter(Taxonomy_Substrate_Functional_Group == "Coral" |  Taxonomy_Substrate_Functional_Group == "Algal Turf") %>% 
-  group_by(Year, Site, Taxonomy_Substrate_Functional_Group) %>%
+  group_by(Year, Site, Habitat, Taxonomy_Substrate_Functional_Group) %>%
     summarise(mean_percent_cover = mean(Percent_Cover, na.rm = TRUE)) %>%
   # Ungroup to remove grouping structure
   ungroup()
@@ -218,6 +219,7 @@ ggmap(moorea_map) + ##input base map
                                            y= latitude,
                                            color= Site), ##color dots by site
              size= 4) + 
+  scale_color_brewer(palette= "Set2")+
   annotation_north_arrow(location = "tl", 
                          height = unit(0.9, "cm"),
                          width = unit(0.9, "cm")) + # add a north arrow
@@ -233,7 +235,10 @@ ggmap(moorea_map) + ##input base map
   theme(plot.title = element_text(hjust = 0.5, size = 16, face = "bold"),
     plot.subtitle = element_text(hjust = 0.5))
 
+##save and export figure to 
+ggsave(here("Final_project_shiny", "sample_sites.png"))
 
+library(bslib)
 
 
 
