@@ -1,0 +1,72 @@
+---
+title: "Border"
+author: "Annie Deck"
+date: "2024-12-10"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      message=FALSE,
+                      warning=FALSE)
+```
+# What I learned this week
+#### This week I tried a new RMarkdwon output. I tried teh word_document output, which is really cool and I can see being useful in the future. 
+
+# Load libraries
+```{r}
+library(tidyverse)
+library(here)
+
+```
+
+# Bring in data
+```{r}
+#Read in from git hub
+A64_traffic <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-12-03/A64_traffic.csv')
+
+##Save to data folder 
+readr::write_csv(A64_traffic, here::here("Tidy_Tuesday", "Traffic", "Data", "A64_traffic.csv"))
+
+##look at data
+glimpse(A64_traffic)
+
+```
+# Data wrangling
+```{r}
+##check class of SiteId column
+class(A64_traffic$SiteId)
+
+##convert to a factor so I can color the location of the site by SiteId
+A64_traffic$SiteId <- as.factor(A64_traffic$SiteId)
+```
+
+
+# Mapping
+```{r}
+##get world map
+world <- map_data("world")
+
+# Filter the UK map to the relevant area
+uk_map <- world %>%
+  filter(region %in% c("UK")) %>%
+  filter(long > -5 & long < 1 & lat > 52 & lat < 56)
+
+# Plot the UK map with traffic data
+UK_plot <- ggplot() +
+  geom_polygon(data = uk_map, 
+               aes(x = long, y = lat, group = group), 
+               fill = "lightgrey", color = "black") +
+  geom_point(data = A64_traffic, 
+             aes(x = Longitude, y = Latitude, color=SiteId)) +
+  labs(title = "Location of England's Road Sensors",
+       caption = "Source: Tidy Tuesday National Highways Traffic Flow dataset",
+       x = "Longitude",
+       y = "Latitude") +
+  theme_minimal() +
+  theme(plot.title = element_text(size = 14, face = "bold")) +
+  coord_fixed(ratio = 1.3) ##adjusts width/height proportion to reduce distortion 
+
+UK_plot
+```
+
